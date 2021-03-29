@@ -1,0 +1,68 @@
+@charset "utf-8";
+/* ==========================================================================
+ effect
+========================================================================== */
+
+.u-LH07 {
+	line-height: .7 !important;
+}
+
+
+.u-flexHalfHeading {
+	font-size: 3.8rem;
+	line-height: 1.8;
+}
+
+.u-rubyBottom {
+	position: absolute;
+	bottom: -.15em;
+	left: 0;
+	font-family: "Noto Serif JP" !important;
+	font-size: .22em !important;
+	&.u-bottom0 {
+		bottom: 0;
+	}
+	&.u-bottom-10 {
+		bottom: -10px;
+	}
+	@include mq(tb) {
+		bottom: 3em;
+		font-size: .075em !important;
+		&.u-bottom0 {
+			bottom: 0;
+		}
+		&.u-bottom-10 {
+			bottom: -10px;
+		}
+		&.u-pagetop{
+			bottom: 2em;
+			font-size: 1.2rem !important;
+		}
+	}
+}
+.u-rubyBottomCenter {
+	display: inline-block;
+	position: absolute;
+	right: 0;
+	left: 0;
+	bottom: -2.15em;
+	left: 0;
+	margin: 0 auto;
+	width: auto;
+	height: auto;
+	text-align: center;
+	font-family: "Noto Serif JP" !important;
+	font-size: .22em !important;
+	@include mq(tb) {
+		bottom: -2em;
+		font-size: .15em !important;
+	}
+}
+.u-colorRed {	
+	color: #FF5252;
+}
+.u-caution {
+	vertical-align: top;
+	font-size: 1rem;
+	color: #FF5252;
+}

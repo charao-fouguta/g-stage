@@ -1,0 +1,366 @@
+@charset "utf-8";
+/* ==========================================================================
+ Header
+========================================================================== */
+
+.l-header {
+	position: fixed;
+	top: 0;
+	width: 100%;
+	height: 60px;
+	@include mq(tb) {
+		border-right: solid 1px #f2f2f2;
+		//border-bottom: solid 1px #f2f2f2;
+		width: 10%;
+		height: 100%;
+	}
+	background: #fff;
+	z-index: 2;
+	cursor: pointer;
+	header {
+		width: 100%;
+		height: 100%;
+	}
+	.l-header__logo {
+		display: block;
+		position: absolute;
+		top: 14px;
+		left: 16px;
+		z-index: 2;
+		margin: 0 auto;
+		width: 34px;
+		height: 33px;
+		background-image: url("images/logo-black.png");
+		background-size: cover;
+		background-repeat: no-repeat;
+		transition: 1s;
+		@include mq(tb) {
+			top: 22px;
+			right: 0;
+			left: 0;
+			width: 54px;
+			height: 52px;
+		}
+	}
+	&:hover {
+		background: #0A0837;
+		color: #fff;
+		transition: .4s ease-out;
+		@include mq(tb) {
+			border-right: solid 1px #000;
+			//border-bottom: solid 2px #fff;
+		}
+		.l-header__logo {
+			background-image: url("images/logo-white.png");
+		}
+		.l-header__hamburger {
+			&::before {
+				background: #fff;
+			}
+			&::after {
+				background: #fff;
+			}
+		}
+	}
+	&.is-navPreOpen {
+		visibility: hidden;
+		transition: 0s;
+		.l-header__logo {
+			background: none;
+		}
+	}
+	&.is-navOpen {
+		background: #0A0837;
+		color: #fff;
+		@include mq(tb) {
+			border-right: solid 1px #fff;
+			//border-bottom: solid 2px #fff;
+		}
+		.l-header__logo {
+			background-image: url("images/logo-white.png");
+		}
+		.l-header__hamburger {
+			&::before {
+				background: #fff;
+			}
+			&::after {
+				background: #fff;
+			}
+		}
+	}
+}
+.l-header__inner {
+	position: relative;
+	//border-bottom: solid 1px #F2F2F2;
+	width: 100%;
+	height: 100%;
+}
+.l-header__guide {
+	display: none;
+	flex-direction: column;
+	justify-content: center;
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	font-size: 1.1rem;
+	letter-spacing: .4rem;
+	writing-mode: vertical-lr;
+	transform: rotate(180deg);
+	@include mq(tb) {
+		display: flex;
+	}
+}
+.l-header__hamburger {
+	position: absolute;
+	top: 24px;
+	z-index: 2;
+	right: 24px;
+	width: 23px;
+	height: 12px;
+	transition: .4s;
+	&::before {
+		content: "";
+		display: block;
+		position: absolute;
+		top: 0;
+		width: 100%;
+		height: 1px;
+		background: #000;
+		transition: .25s;
+	}
+	&::after {
+		content: "";
+		display: block;
+		position: absolute;
+		bottom: 0;
+		width: 100%;
+		height: 1px;
+		background: #000;
+		transition: .25s;
+	}
+	&.is-navOpen {
+		&::before {
+			top: 7.5px;
+			background: #fff;
+			transform: rotateZ(45deg);
+		}
+		&::after {
+			bottom: 4px;
+			background: #fff;
+			transform: rotateZ(135deg);
+			@include mq(tb) {
+				bottom: 10px;
+			}
+		}
+	}
+	@include mq(tb) {
+		right: 0;
+		bottom: 41px;
+		top: auto;
+		right: 0;
+		left: 0;
+		margin: 0 auto;
+		width: 37px;
+		height: 18px;
+		&.is-navOpen {
+			&::before {
+				top: 7.5px;
+				background: #fff;
+				transform: rotateZ(45deg);
+			}
+			&::after {
+				bottom: 10px;
+				background: #fff;
+				transform: rotateZ(135deg);
+			}
+		}
+	}
+}
+.l-header__nav {
+	position: absolute;
+	top: 0;
+	width: 100vw;
+	height: 0;
+	background: #0A0837;
+	visibility: hidden;
+	transition: .4s ease-in;
+	@include mq(tb) {
+		left: -1500px;
+		//border-left: solid 1px #fff;
+		border-left: solid 1px #fff;
+		//border-bottom: solid 3px #fff;
+		height: 100vh;
+		cursor: auto;
+	}
+}
+.l-header__nav.is-navOpen {
+	top: 60px;
+	height: 100vh;
+	visibility:visible;
+	a {
+		opacity: 1;
+	}
+	@include mq(tb) {
+		top: 0;
+		left: 100%;
+		visibility: visible;
+	}
+}
+.l-header__navList {
+	display: flex;
+	flex-wrap: wrap;
+	margin: 9% auto 0;
+	width: 85%;
+	transition: 0s;
+	@include mq(tb) {
+		width: 88%;
+	}
+	li {
+		display: block;
+		width: 50%;
+		min-height: 90px;
+		&:nth-child(2n) {
+			padding-left: 10%;
+		} 
+		@include mq(tb) {
+			width: 33%;
+			min-height: auto;
+			&:nth-child(2n) {
+				padding-left: 0;
+			}
+		}
+		a {
+			display: block;
+			position: relative;
+			font-family: "Lateef";
+			font-size: 4.7rem;
+			color: #fff;
+			opacity: 0;
+			transition: .3s;
+			&:link,&:visited {
+				color: #fff;
+			}
+			@include mq(tb) {
+				font-size: 8.8rem;
+				&:hover {
+					span {
+						bottom: 0;
+						opacity: 1;
+					};
+				}
+			}
+			&.u-header__LH05 {
+				padding-top: 22px;
+				font-size: 3.3rem;
+				line-height: .8;
+				color: #fff;
+				@include mq(tb) {
+					margin-right: 50px;
+					padding-top: 43px;
+					font-size: 6.4rem;
+					line-height: 0.6;
+					color: #fff;
+					&:hover {
+						span {
+							bottom: -1.5em;
+							opacity: 1;
+						};
+					}
+				}
+				span {
+					position: absolute;
+					bottom: -1.5em;
+					left: 0;
+					font-family: "Noto Serif JP";
+					font-size: .35em;
+					opacity: .7;
+					transition: .5s;
+					@include mq(tb) {
+						bottom: 0;
+						opacity: 0;
+					}
+				}
+			}
+			span {
+				position: absolute;
+				bottom: 0em;
+				left: 0;
+				font-family: "Noto Serif JP";
+				font-size: .25em;
+				opacity: .7;
+				transition: .5s;
+				@include mq(tb) {
+					bottom: 1.5em;
+					opacity: 0;	
+				}
+			}
+		}
+	}
+}
+.l-header__outerLinks {
+	display: flex;
+	flex-direction: column-reverse;
+	justify-content: space-between;
+	margin: 0 auto;
+	width: 85%;
+	@include mq(tb) {
+		flex-direction: row;
+		width: 88%;
+	}
+}
+.l-header__sns {
+	display: flex;
+	justify-content: center;
+	margin-top: 35px;
+	@include mq(tb) {
+		margin-top: 93px;
+	}
+	li {
+		
+		&:first-child, &:nth-child(2) {
+			margin-right: 27px;
+			width: 28.01px;
+		}
+		&:nth-child(3) {
+			width: 35.01px;
+		}
+		a {
+			opacity: 0;
+			transition: .3s;
+		}
+		img {
+			width: 100%;
+		}
+	}
+}
+.l-header__shop {
+	position: relative;
+	display: block;
+	margin: 18px auto;
+	padding: 22px 0;
+	border: solid 1px #fff;
+	width: 315px;
+	font-size: 1.8rem;
+	text-align: center;
+	color: #fff;
+	opacity: 0;
+	transition: .3s;
+	&:link,&:visited {
+		color: #fff;
+	}
+	&:hover {
+		background: #fff;
+		color: #000;
+	}
+	@include mq(tb) {
+		margin: 55px 13% 0 0;
+		padding: 22px 100px;
+		width: auto;
+	}
+	&::after {
+		position: absolute;
+		top: 25px;
+		left: 230px;
+		content: url("images/iconmonstr-shopping-bag-4.svg");
+	}
+}

@@ -1,0 +1,60 @@
+@charset "UFT-8";
+/*
+Theme Name: g-stage 
+Author: unknown
+Description: g-stage
+Version: 1.0.3
+*/
+
+/* ==========================================================================
+ Foundation
+========================================================================== */
+
+@import 'sass/foundation/webfont';
+@import 'sass/foundation/reset';
+@import 'sass/foundation/setting';
+@import 'sass/foundation/base';
+
+/* ==========================================================================
+ Layout
+========================================================================== */
+
+@import 'sass/layout/wrapper';
+@import 'sass/layout/header';
+@import 'sass/layout/breadcrumb';
+@import 'sass/layout/main';
+@import 'sass/layout/footer';
+
+/* ==========================================================================
+ Object
+========================================================================== */
+
+/* -----------------------------------------------------------------
+ Project
+----------------------------------------------------------------- */
+//プロジェクト固有のスタイル
+
+//@import 'sass/object/project/header.scss';
+@import 'sass/object/project/topMV.scss';
+@import 'sass/object/project/footer';
+@import 'sass/object/project/list.scss';
+@import 'sass/object/project/form.scss';
+
+/* -----------------------------------------------------------------
+ Component
+----------------------------------------------------------------- */
+
+@import 'sass/object/component/media.scss';
+@import 'sass/object/component/banner.scss';
+@import 'sass/object/component/passage.scss';
+@import 'sass/object/component/tile.scss';
+@import 'sass/object/component/article_list.scss';
+@import 'sass/object/component/button.scss';
+
+/* -----------------------------------------------------------------
+ Utility
+----------------------------------------------------------------- */
+
+@import 'sass/object/utility/inline.scss';
+@import 'sass/object/utility/block.scss';
+@import 'sass/object/utility/effect.scss';

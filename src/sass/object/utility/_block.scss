@@ -1,0 +1,126 @@
+@charset "utf-8";
+/* ==========================================================================
+ Block
+========================================================================== */
+
+//display
+.u-flexHalf__PC {
+	justify-content: space-between;
+	> * {
+		width: auto;
+		h2 {
+			height: auto;
+		}
+		@include mq(tb) {
+			width: 48%;
+			h2 {
+				height: auto;
+			}
+		}
+	}
+}
+.u-flex25-75__PC {
+	justify-content: space-between;
+	> * {
+		width: auto;
+		@include mq(tb) {
+			&:first-child{
+				width: 25%;
+			}
+			&:last-child {
+				width: 75%;
+			}
+		}
+	}
+}
+.u-flexHalf__SP {
+	justify-content: space-between;
+	> * {
+		width: 48% !important;
+		@include mq(tb) {
+			width: auto;
+		}
+	}
+}
+
+//position
+.u-positionRelative {
+	position: relative !important;
+}
+.u-positionCenter {
+	right: 0;
+	left: 0;
+	margin: 0 auto;
+}
+
+//margin
+.u-verticalM100 {
+	margin: 100px 0;
+}
+.u-verticalM__pattern2 {
+	margin: -20px 0 30px !important;
+	@include mq(tb) {
+		margin: -20px 0 50px !important;
+	}
+}
+.u-MB0 {
+	margin-bottom: 0 !important;
+}
+.u-marginRightTB50 {
+	margin-right: 0;
+	@include mq(tb) {
+		margin-right: 50px;
+	}
+}
+
+//padding
+.u-paddingSide18 {
+	padding: 0 18px;
+}
+.u-paddingSideSP18 {
+	padding: 0 18px;
+	@include mq(tb) {
+		padding: 0;
+	}
+}
+.u-paddingSideTB50 {
+	padding: 0;
+	@include mq(tb) {
+		padding: 0 50px;
+	}
+}
+
+//width
+.u-movie__wide {
+	margin-bottom: 100px;
+	width: 100%;
+	@include mq(tb) {
+		margin-bottom: 140px;
+	}
+}
+
+//suquare image
+.u-square {
+	> * {
+		display: block;
+		position: relative;
+		padding-top: 100%;
+		overflow: hidden;
+		> * {
+			display: block;
+			position: absolute;
+			top: 0;
+			z-index: 1;
+			width: 100%;
+			> * {
+				width: 100%;
+				height: 100%;
+			}
+		}
+	}
+}
+
+//text
+.u-fs-18 {
+	font-size: 1.8rem !important;
+}

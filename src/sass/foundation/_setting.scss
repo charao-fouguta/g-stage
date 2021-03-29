@@ -1,0 +1,92 @@
+@charset "utf-8";
+
+$boxW: (
+	sp: 375px, //smart phone
+	pb: 500px, //phablet
+	tb: 768px, //tablet
+	lt: 960px, //large tablet
+	pc: 1200px, //personal computer
+	max: 100%,
+);
+
+$color: (
+	baseLight: #939393
+);
+
+@mixin linkDecoration {
+	text-decoration: underline;
+	color: #79b8ff;
+}
+@mixin getW($w) {
+	width: map-get($boxW, $w );
+}
+@mixin sandwichTop {
+	content: "";
+	display: inline-block;
+	position: absolute;
+	top: 0;
+	right: 0;
+	left: 0;
+	margin: auto;
+	border-top: solid 2px #aaa;
+	border-right: none;
+	border-bottom: none;
+	border-left: none;
+	width: 17px;
+	cursor: pointer;
+}
+@mixin sandwichBottom {
+	content: "";
+	display: inline-block;
+	position: absolute;
+	right: 0;
+	bottom: 30px;
+	left: 0;
+	margin: auto;
+	border-top: none;
+	border-right: none;
+	border-bottom: solid 2px #aaa;
+	border-left: none;
+	width: 17px;
+	cursor: pointer;
+}
+@mixin buttonBasic {	
+	display: block;
+	position: relative;
+	margin: .5em 0;
+	padding: .3em 0;
+	border: solid 1px #000;
+	text-align: center;
+	transition: .3s;
+	&::after {
+		content: "→";
+		display: inline-block;
+		position: absolute;
+		top: 0;
+		bottom: 0;
+		right: 1em;
+		margin: auto 0;
+		width: 1em;
+		height: 1em;
+	}
+	&:hover {
+		background: #000;
+		color: #fff;
+	}
+}
+
+$breakpoint: 374, 500, 768, 960, 1200;
+
+$query: (
+	sp: 'screen and (min-width: ' + nth($breakpoint, 1) + 'px)',
+	pb: 'screen and (min-width: ' + nth($breakpoint, 2) + 'px)',
+	tb: 'print, screen and (min-width: ' + nth($breakpoint, 3) + 'px)',
+	lt: 'print, screen and (min-width: ' + nth($breakpoint, 4) + 'px)',
+	pc: 'print, screen and (min-width: ' + nth($breakpoint, 5) + 'px)'
+) !default;
+
+@mixin mq($point) {
+	@media #{ map-get($query, $point) } {
+		@content;
+	}
+}

@@ -1,0 +1,27 @@
+@charset "utf-8";
+/* ==========================================================================
+ Layout footer
+========================================================================== */
+
+.l-footer {
+	position: relative;
+	right: 0;
+	margin-top: 120px;
+	padding: 45px;
+	min-height: 455px;
+	background: #0D0235;
+	color: #fff;
+	transition: .7s;
+	@include mq(tb) {
+		margin-left: 10%;
+		min-height: 290px;
+		&.is-navOpen {
+			right: -1500px;
+		}
+	}
+	h3 {
+		padding: 20px 0;
+		font-family: "Lateef";
+		font-size: 3.1rem;
+	}
+}

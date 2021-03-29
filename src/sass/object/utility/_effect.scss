@@ -1,0 +1,103 @@
+@charset "utf-8";
+/* ==========================================================================
+ effect
+========================================================================== */
+
+.is-fadeOut {
+	opacity: 0;
+	transition: 2s;
+}
+.is-fadeIn {
+	opacity: 1;
+	transition: 2s;
+}
+
+
+.is-fadeToBottom {
+	display: inline-block;
+	position: absolute;
+	bottom: 100px;
+	width: fit-content;
+	opacity: 0;
+	transition: 2s;
+	@include mq(tb) {
+		left: 0;
+	}
+}
+.is-fadeToBottom.is-appear {
+	bottom: 0;
+	opacity: 1;
+}
+
+.u-fadeImgWrap {
+	position: relative;
+}
+.is-fadeToTopImg {
+	position: relative;
+	top: 100%;
+	opacity: 0;
+	transition: 2s !important;
+	@include mq(tb) {
+		left: 0;
+	}
+}
+.is-fadeToTopImg.is-appear {
+	top: 0;
+	opacity: 1;
+}
+.is-fadeToBottomImg {
+	position: relative;
+	bottom: 100%;
+	opacity: 0;
+	transition: 2s !important;
+	@include mq(tb) {
+		left: 0;
+	}
+}
+.is-fadeToBottomImg.is-appear {
+	bottom: 0;
+	opacity: 1;
+}
+
+.is-fadeInImg, .is-fadeInImg2 {
+	opacity: 0;
+}
+.is-fadeInImg.is-appear, .is-fadeInImg2.is-appear {
+	opacity: 1;
+}
+.is-1s {
+	transition: .5s;
+}
+.is-2s {
+	transition: 1s;
+}
+.is-3s {
+	transition: 1.5s;
+}
+.is-4s {
+	transition: 2s;
+}
+.is-5s {
+	transition: 2.5s;
+}
+.is-6s {
+	transition: 3s;
+}
+.is-7s {
+	transition: 3.5s;
+}
+.is-8s {
+	transition: 4s;
+}
+.is-9s {
+	transition: 4.5s;
+}
+.is-10s {
+	transition: 5s;
+}
+.is-11s {
+	transition: 5.5s;
+}
+.is-12s {
+	transition: 6s;
+}
