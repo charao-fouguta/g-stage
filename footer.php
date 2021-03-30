@@ -19,7 +19,7 @@
 			</footer>
 		</div>
 	</div>
-	<script src="<?php echo $root; ?>main.js?ver=1.0.4"></script>
+	<script src="<?php echo $root; ?>main.js?ver=1.0.5"></script>
 	<script src="<?php echo $root; ?>js/lib/jquery/jquery-3.6.0.min.js"></script>
 	<script src="<?php echo $root; ?>js/lib/jquery/colorbox/jquery.colorbox.js"></script>
 	<script src="<?php echo $root; ?>js/lib/jquery/colorbox/colorbox-func.js"></script>
