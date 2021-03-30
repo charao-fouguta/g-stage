@@ -31,7 +31,7 @@
 						<?php
 						for ($i=1; $i<=12; $i++) {
 							echo '<li class="c-fadeInImage">';
-							echo '<a href="#" class="is-fadeInImg is-'.$i.'s">';
+							echo '<a href="'.$root.'images/gallipoli-coordination'.$i.'-l.jpg" class="cboxGroup is-fadeInImg is-'.$i.'s">';
 							echo '<figure>';
 							echo '<img sizes="'.$media2.'" srcset="'.$root.'images/gallipoli-coordination'.$i.'-s.jpg '.$sp.'w, '.$root.'images/gallipoli-coordination'.$i.'-l.jpg '.$tb.'w" src="'.$root.'images/gallipoli-coordination'.$i.'-s.jpg" alt="">';
 							echo '</figure>';

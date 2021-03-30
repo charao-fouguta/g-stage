@@ -20,9 +20,9 @@
 		}
 		@include mq(tb) {
 			padding-top: 0;
-			height: 455px;
+			//height: 455px;
 		}
-		a {
+		> div {
 			display: block;
 			position: static;
 			width: 100%;
@@ -31,11 +31,10 @@
 				display: flex;
 				flex-direction: row;
 				justify-content: space-between;
-				position: absolute;
-				top: 0;
-				bottom: 0;
-				margin: auto;
-				height: 70%;
+				margin: 70px 0;
+			}
+			&.is-vewOpen {
+				height: auto;
 			}
 		}
 		.c-articleList__imgWrap {
@@ -45,8 +44,10 @@
 			border: solid 1px #D6D7D7;
 			width: 80%;
 			@include mq(tb) {
+				margin: 0;
 				padding-top: 0;
 				width: 48%;
+				height: 326px;
 			}
 			time {
 				position: absolute;
@@ -95,31 +96,93 @@
 				overflow: hidden;
 			}
 		}
-		p {
+		.c-articleList__message {
+			position: relative;
 			margin-bottom: 0;
-			padding: 0 0 20px;
+			padding-bottom: 18px;
+			max-height: 120px;
+			overflow: hidden;
 			font-size: 1.4rem;
 			line-height: 2;
 			color: map-get($color, baseLight);
-			@include mq(tb) {
-				max-height: 200px;
-				overflow: hidden;
+			transition: 1s;
+			&::after {
+				content: "";
+				display: block;
+				position: absolute;
+				bottom: 0;
+				width: 100%;
+				height: 100%;
+				background: linear-gradient(transparent, #fff);
+			}
+			&.is-viewOpen {
+				max-height: 100vh;
+				&::after {
+					background: transparent;
+				}
 			}
 		}
 	}
 }
-.c-articleList__viewDtail {
+.c-articleList__button {
 	position: relative;
-	padding: .5em 32px;
+	margin-bottom: 70px;
 	border-top: solid 1px #C9CACA;
+	width: 100%;
+	height: auto;
+}
+.c-articleList__viewDetail {
+	position: absolute;
+	padding: .5em 32px;
 	font-family: "Lateef";
 	font-size: 2.5rem;
 	color: #656565;
+	transition: 1s;
+	cursor: pointer;
+	&.is-viewOpen {
+		opacity: 0;
+		visibility: hidden;
+	}
 	@include mq(tb) {
 		padding: .5em 0;
 		font-size: 3rem;
+		&.is-viewOpen {
+			opacity: 0;
+			visibility: hidden;
+		}
 	}
-	span.c-viewDtail__arrow {
+	span.c-viewDetail__arrow {
+		font-size: 2rem;
+		margin-left: 15px;
+		font-family: "Lateef";
+		@include mq(tb) {
+			font-size: 3rem;
+		}
+	}
+}
+.c-articleList__closeDetail {
+	position: absolute;
+	padding: .5em 32px;
+	font-family: "Lateef";
+	font-size: 2.5rem;
+	color: #656565;
+	visibility: hidden;
+	opacity: 0;
+	transition: 1s;
+	cursor: pointer;
+	&.is-viewOpen {
+		opacity: 1;
+		visibility: visible
+	}
+	@include mq(tb) {
+		padding: .5em 0;
+		font-size: 3rem;
+		&.is-viewOpen {
+			opacity: 1;
+			visibility: visible
+		}
+	}
+	span.c-viewDetail__arrow {
 		font-size: 2rem;
 		margin-left: 15px;
 		font-family: "Lateef";

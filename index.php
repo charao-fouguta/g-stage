@@ -47,7 +47,7 @@
 				</div>
 				<div class="p-topMV">
 					<section>
-						<h1 class="p-gallipoliLogo is-first"><img src="images/header_logo_gallipoli.png" alt="GALLIPOLIcamiceria"></h1>
+						<h1 class="p-gallipoliLogo is-first"><img src="images/header_logo_gallipoli.jpg" alt="GALLIPOLIcamiceria"></h1>
 						<ul class="p-gallipoli__ul is-first">
 							<li class="p-gallipoli">
 								<a href="<?php echo $root; ?>gallipoli/">
@@ -93,9 +93,9 @@
 				<h2><span class="is-fadeToBottom">News<span class="u-rubyBottom">お知らせ</span></span></h2>
 				<ul class="l-parallel l-overFlow c-media3column">
 					<li>
-						<a href="#">
+						<a href="<?php echo $root; ?>news/#n1">
 							<figure><img src="<?php echo $root; ?>images/renewal.jpg" alt=""></figure>
-							<div class="u-paddingSide18">
+							<div class="u-paddingWithoutTop18">
 								<time datetime="2020-02-08">2020/02/08</time>
 								<h3>ホームページリニューアルのお知らせ</h3>
 								<p>ご利用いただき、誠にありがとうございます。この度、ホームページを全面リニュー…</p>
@@ -103,9 +103,9 @@
 						</a>
 					</li>
 					<li>
-						<a href="#">
+						<a href="<?php echo $root; ?>news/#n2">
 							<figure><img src="<?php echo $root; ?>images/m8.jpg" alt=""></figure>
-							<div class="u-paddingSide18">
+							<div class="u-paddingWithoutTop18">
 								<time datetime="2020-02-08">2020/02/08</time>
 								<h3>メディア情報 ◆ 雑誌掲載<br>「Safari3月号」に掲載されました！</h3>
 								<p>“大人シャツの個性出しは刺繍柄が効く”前身頃に刺繍をあしらった大人上品なシャツ…</p>
@@ -113,9 +113,9 @@
 						</a>
 					</li>
 					<li>
-						<a href="#">
+						<a href="<?php echo $root; ?>news/#n3">
 							<figure><img src="<?php echo $root; ?>images/shop.jpg" alt=""></figure>
-							<div class="u-paddingSide18">
+							<div class="u-paddingWithoutTop18">
 								<time datetime="2020-02-08">2020/02/08</time>
 								<h3>G-stage取り扱い店のご案内</h3>
 								<p>阪神梅田本店 6F<br>新宿小田急エース北館西<br>[オクル×シタテル Odakyu Selection]</p>

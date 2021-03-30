@@ -4,7 +4,7 @@
 					<a href="<?php echo $root; ?>" class="p-footerLogo"><figure><img src="<?php echo $root; ?>images/logo-footer.png" alt="G-Stage"></figure></a>
 					<div class="p-footerAdress">
 						<h3>Address</h3>
-						<p>G-STAGE・JAPAN株式会社<br>〒540-0026　大阪府大阪市中央区内本町2-3-11<br>info@g-stage1967.com</p>
+						<p>G-STAGE・JAPAN株式会社<br>〒150-0001　東京都渋谷区神宮前3-22-10 SAITO BLDG.4F-A<br>info@g-stage1967.com</p>
 					</div>
 					<div class="p-footerSns">
 						<h3>Follow us</h3>
@@ -20,5 +20,9 @@
 		</div>
 	</div>
 	<script src="<?php echo $root; ?>main.js?ver=1.0.4"></script>
+	<script src="<?php echo $root; ?>js/lib/jquery/jquery-3.6.0.min.js"></script>
+	<script src="<?php echo $root; ?>js/lib/jquery/colorbox/jquery.colorbox.js"></script>
+	<script src="<?php echo $root; ?>js/lib/jquery/colorbox/colorbox-func.js"></script>
+	<script src="<?php echo $root; ?>js/lib/jquery/fade/fade.js"></script>
 </body>
 </html>

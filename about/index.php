@@ -33,9 +33,14 @@
 										<div>
 											<dt>東京本社</dt>
 											<dd>
-												<div>〒150-0001　東京都渋谷区神宮前3-22-10 SAITOビル4F</div>
+												<div>〒150-0001　東京都渋谷区神宮前3-22-10 SAITO BLDG.4F-A</div>
 												<div>TEL:03-6434-9580　FAX:03-6434-9581</div>
-												<a href="" class="c-button__broad">MAP</a>
+												<a href="#tokyo" class="cboxMap1 c-button__broad">MAP</a>
+												<div class="lib-cboxMap">
+													<div id="tokyo" class="lib-mapWrap">
+														<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3241.27434766266!2d139.70489021525844!3d35.67024618019684!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188ca3687f3aeb%3A0x2e018dce98ce7bde!2z44CSMTUwLTAwMDEg5p2x5Lqs6YO95riL6LC35Yy656We5a6u5YmN77yT5LiB55uu77yS77yS4oiS77yR77yQIOaWieiXpOODk-ODqyA0Rg!5e0!3m2!1sja!2sjp!4v1617084542577!5m2!1sja!2sjp" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>	
+													</div>
+												</div>
 											</dd>
 										</div>
 										<div>
@@ -43,7 +48,12 @@
 											<dd>
 												<div>〒540-0026 大阪市中央区内本町2-3-11 内本町グリーンビル2F</div>
 												<div>TEL:06-6947-1407　FAX:06-6947-7100</div>
-												<a href="" class="c-button__broad">MAP</a>
+												<a href="#osaka" class="cboxMap1 c-button__broad">MAP</a>
+												<div class="lib-cboxMap">
+													<div id="osaka" class="lib-mapWrap">
+													<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3280.8697725069997!2d135.51053641523166!3d34.68323608043895!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6000e7245aea8279%3A0xea489bc6ba516e2!2z5YaF5pys55S644Kw44Oq44O844Oz44OT44Or!5e0!3m2!1sja!2sjp!4v1617094278076!5m2!1sja!2sjp" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+													</div>
+												</div>
 											</dd>
 										</div>
 										<div>

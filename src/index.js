@@ -1,6 +1,6 @@
 import "./style.scss";
 import jQuery from 'jquery';
-
+//import * as cb from './js/jquery.colorbox';
 
 let winW;
 let tb;	
@@ -150,6 +150,35 @@ function resetScroll() {
 }
 
 
+////news一覧ページの view detail
+
+let artcleMessage = document.getElementsByClassName('c-articleList__message');
+let viewDetail = document.getElementsByClassName('c-articleList__viewDetail');
+let closeDetail = document.getElementsByClassName('c-articleList__closeDetail');
+
+
+if (artcleMessage) {
+	for (let i=0; i<artcleMessage.length; i++) {
+		viewDetail[i].addEventListener('click', function () {
+			if (!artcleMessage[i].classList.contains('is-viewOpen')) {
+				artcleMessage[i].classList.add('is-viewOpen');
+				viewDetail[i].classList.add('is-viewOpen');
+				closeDetail[i].classList.add('is-viewOpen');
+			}
+		});
+	}
+}
+if (artcleMessage) {
+	for (let i=0; i<artcleMessage.length; i++) {
+		closeDetail[i].addEventListener('click', function () {
+			if (artcleMessage[i].classList.contains('is-viewOpen')) {
+				artcleMessage[i].classList.remove('is-viewOpen');
+				viewDetail[i].classList.remove('is-viewOpen');
+				closeDetail[i].classList.remove('is-viewOpen');
+			}
+		});
+	}
+}
 ////画面サイズ切り替え時の処理
 /*
 getCurrentWidth();
@@ -160,7 +189,7 @@ function getCurrentWidth() {
 
 }
 */
-
+/*
 ////文字と画像が上から下、下から上にフェードイン
 $(window).on('load scroll', function (){
 	var fadeTo = $('.is-fadeToBottom');
@@ -212,3 +241,4 @@ $(window).on('load scroll', function (){
 		}
 	});
 });
+*/

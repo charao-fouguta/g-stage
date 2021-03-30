@@ -32,7 +32,7 @@
 								<li><a href="https://www.facebook.com/%EF%BC%A7%EF%BD%93%EF%BD%94%EF%BD%81%EF%BD%87%EF%BD%85-274295239367030/" target="_blank"><img src="<?php echo $root; ?>images/facebook.svg" alt="facebook"></a></li>
 								<li><a href="https://www.youtube.com/channel/UCEpg8F6msuNx1HH4WLZDADg" target="_blank"><img src="<?php echo $root; ?>images/youtube.svg" alt="youtube"></a></li>
 							</ul>
-							<a href="#" class="l-header__shop">Online Shop</a>
+							<a href="https://www.g-stage-select.jp/" class="l-header__shop">Online Shop</a>
 						</div>
 					</div>
 				</div>

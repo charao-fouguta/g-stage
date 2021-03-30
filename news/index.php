@@ -18,44 +18,69 @@
 		<div class="l-column__nallow">
 			<section class="l-section">
 				<ul class="c-articleList">
-					<li>
-						<a href="#">
+					<li id="n1">
+						<div>
 							<div class="c-articleList__imgWrap">
 								<figure><img src="<?php echo $root; ?>images/renewal.jpg" alt=""></figure>
 								<time datetime="2020-02-08">2020.02.08</time>
 							</div>
 							<div class="c-articleList__meta u-paddingSide18">
 								<h3>ホームページリニューアルのお知らせ</h3>
-								<p>いつもご利用いただき誠にありがとうございます。<br>この度、ホームページをより使いやすく快適にご利用いただけるように、ホームページのリニューアルを行いました…</p>
-								<div class="c-articleList__viewDtail">View Detail<span class="c-viewDtail__arrow">↓</span></div>
+								<p class="c-articleList__message">いつもご利用いただき誠にありがとうございます。<br>この度、ホームページをより使いやすく快適にご利用いただけるように、ホームページのリニューアルを行いました…いつもご利用いただき誠にありがとうございます。<br>この度、ホームページをより使いやすく快適にご利用いただけるように、ホームページのリニューアルを行いました…いつもご利用いただき誠にありがとうございます。<br>この度、ホームページをより使いやすく快適にご利用いただけるように、ホームページのリニューアルを行いました…いつもご利用いただき誠にありがとうございます。<br>この度、ホームページをより使いやすく快適にご利用いただけるように、ホームページのリニューアルを行いました</p>
+								<div class="c-articleList__button">
+									<div class="c-articleList__viewDetail">View Detail<span class="c-viewDetail__arrow">↓</span></div>
+									<div class="c-articleList__closeDetail">Close Detail<span class="c-viewDetail__arrow">↑</span></div>
+								</div>
 							</div>
-						</a>
+						</div>
 					</li>
-					<li>
-						<a href="#">
+					<li id="n2">
+						<div>
 							<div class="c-articleList__imgWrap">
 								<figure><img src="<?php echo $root; ?>images/m8.jpg" alt=""></figure>
 								<time datetime="2020-02-08">2020.02.08</time>
 							</div>
 							<div class="c-articleList__meta u-paddingSide18">
 								<h3>メディア情報 ◆ 雑誌掲載<br>「Safari3月号」に掲載されました！</h3>
-								<p>“大人シャツの個性出しは刺繍柄が効く”前身頃に刺繍をあしらった大人上品なシャツ…</p>
-								<div class="c-articleList__viewDtail">View Detail<span class="c-viewDtail__arrow">↓</span></div>
+								<p class="c-articleList__message">“大人シャツの個性出しは刺繍柄が効く”前身頃に刺繍をあしらった大人上品なシャツ…</p>
+								<div class="c-articleList__button">
+									<div class="c-articleList__viewDetail">View Detail<span class="c-viewDetail__arrow">↓</span></div>
+									<div class="c-articleList__closeDetail">Close Detail<span class="c-viewDetail__arrow">↑</span></div>
+								</div>
 							</div>
-						</a>
+						</div>
 					</li>
-					<li>
-						<a href="#">
+					<li id="n3">
+						<div>
+							<div class="c-articleList__imgWrap">
+								<figure><img src="<?php echo $root; ?>images/media-info-l.jpg" alt=""></figure>
+								<time datetime="2020-02-08">2020.02.08</time>
+							</div>
+							<div class="c-articleList__meta u-paddingSide18">
+								<h3>メディア情報 ◆ 雑誌掲載「Safari11月号」に掲載されました！</h3>
+								<p class="c-articleList__message">＂ヴィンテージデニムプリントダウンブルゾン＆ベスト商品の魅力を解説！＂<br><a href="" target="_blank" class="u-headingLink">特集ページは はこちら</a></p>
+								<div class="c-articleList__button">
+									<div class="c-articleList__viewDetail">View Detail<span class="c-viewDetail__arrow">↓</span></div>
+									<div class="c-articleList__closeDetail">Close Detail<span class="c-viewDetail__arrow">↑</span></div>
+								</div>
+							</div>
+						</div>
+					</li>
+					<li id="n4">
+						<div>
 							<div class="c-articleList__imgWrap">
 								<figure><img src="<?php echo $root; ?>images/shop.jpg" alt=""></figure>
 								<time datetime="2020-02-08">2020.02.08</time>
 							</div>
 							<div class="c-articleList__meta u-paddingSide18">
 								<h3>G-stage取り扱い店のご案内</h3>
-								<p>阪神梅田本店 6F<br>新宿小田急エース北館西<br>[オクル×シタテル Odakyu Selection]</p>
-								<div class="c-articleList__viewDtail">View Detail<span class="c-viewDtail__arrow">↓</span></div>
+								<p class="c-articleList__message">阪神梅田本店 6F<br>新宿小田急エース北館西<br>[オクル×シタテル Odakyu Selection]</p>
+								<div class="c-articleList__button">
+									<div class="c-articleList__viewDetail">View Detail<span class="c-viewDetail__arrow">↓</span></div>
+									<div class="c-articleList__closeDetail">Close Detail<span class="c-viewDetail__arrow">↑</span></div>
+								</div>
 							</div>
-						</a>
+						</div>
 					</li>
 				</ul>
 				<div class="c-pageNavi">

@@ -30,7 +30,12 @@
 										<dd>06-6345-1538</dd>
 									</div>
 								</dl>
-								<div class="p-shortList__button"><a href="" class="c-button__short">Map</a></div>
+								<div class="p-shortList__button"><a href="#osaka" class="cboxMap1 c-button__short">Map</a></div>
+								<div class="lib-cboxMap">
+									<div id="osaka" class="lib-mapWrap">
+									<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3280.1574138210226!2d135.4963465152323!3d34.7012093804343!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6000e692af5c270f%3A0xfd1bf0406752d2d2!2z44CSNTMwLTAwMDEg5aSn6Ziq5bqc5aSn6Ziq5biC5YyX5Yy65qKF55Sw77yR5LiB55uu77yR77yT4oiS77yR77yT!5e0!3m2!1sja!2sjp!4v1617095917927!5m2!1sja!2sjp" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+									</div>
+								</div>
 							</div>
 						</li>
 						<li>
@@ -46,7 +51,12 @@
 										<dd>045-465-5417</dd>
 									</div>
 								</dl>
-								<div class="p-shortList__button"><a href="" class="c-button__short">Map</a></div>
+								<div class="p-shortList__button"><a href="#yokohama" class="cboxMap1 c-button__short">Map</a></div>
+								<div class="lib-cboxMap">
+									<div id="yokohama" class="lib-mapWrap">
+									<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3249.5705506489376!2d139.62290671525284!3d35.46542488024525!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60185c149c9a6d67%3A0x68efa2b95386727c!2z44CSMjIwLTAwMTEg56We5aWI5bed55yM5qiq5rWc5biC6KW_5Yy66auY5bO277yS5LiB55uu77yR77yY4oiS77yR!5e0!3m2!1sja!2sjp!4v1617096057625!5m2!1sja!2sjp" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+									</div>
+								</div>
 							</div>
 						</li>
 						<li>
@@ -62,7 +72,12 @@
 										<dd>03-3462-0111</dd>
 									</div>
 								</dl>
-								<div class="p-shortList__button"><a href="" class="c-button__short">Map</a></div>
+								<div class="p-shortList__button"><a href="#shibuya" class="cboxMap1 c-button__short">Map</a></div>
+								<div class="lib-cboxMap">
+									<div id="shibuya" class="lib-mapWrap">
+										<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3241.6284332300047!2d139.6975259152583!3d35.661525180198836!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188ca858d098c3%3A0x6747eee9568fd1f7!2z44CSMTUwLTAwNDIg5p2x5Lqs6YO95riL6LC35Yy65a6H55Sw5bed55S677yS77yR4oiS77yR!5e0!3m2!1sja!2sjp!4v1617096207948!5m2!1sja!2sjp" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+									</div>
+								</div>
 							</div>
 						</li>
 						<li>
@@ -78,7 +93,13 @@
 										<dd>075-352-1111</dd>
 									</div>
 								</dl>
-								<div class="p-shortList__button"><a href="" class="c-button__short">Map</a></div>
+								
+								<div class="p-shortList__button"><a href="#kyoto" class="cboxMap1 c-button__short">Map</a></div>
+								<div class="lib-cboxMap">
+									<div id="kyoto" class="lib-mapWrap">
+									<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3268.8320569703083!2d135.75485161523997!3d34.98587118036223!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x600108aee7bbfbbb%3A0xe1bcf299568ad0e7!2z44K444Kn44Kk44Ki44O844Or5Lqs6YO95LyK5Yui5Li5!5e0!3m2!1sja!2sjp!4v1617096476483!5m2!1sja!2sjp" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+									</div>
+								</div>
 							</div>
 						</li>
 					</ul>
@@ -89,7 +110,7 @@
 						<p>G-stage 公式オンラインショップ</p>
 					</div>
 					<div class="p-shop__button">
-						<a href="" class="c-button__short">Online Shop</a>
+						<a href="https://www.g-stage-select.jp/" target="_blank" class="c-button__short">Online Shop</a>
 					</div>
 				</div>
 				<div class="c-wideBanner">
