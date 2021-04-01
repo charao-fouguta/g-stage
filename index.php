@@ -87,38 +87,48 @@
 				</div>
 			</div>
 		</div>
-		<div class="l-column__nallow">
+		<div class="l-column__nallow u-paddingSideTB50">
 			<a href="<?php echo $root; ?>news/" class="c-newsGuide">View All<span></span></a>
 			<section class="l-section">
 				<h2><span class="is-fadeToBottom">News<span class="u-rubyBottom">お知らせ</span></span></h2>
 				<ul class="l-parallel l-overFlow c-media3column">
 					<li>
-						<a href="<?php echo $root; ?>news/#n1">
-							<figure><img src="<?php echo $root; ?>images/renewal.jpg" alt=""></figure>
+						<a href="<?php echo $root; ?>news/#n4">
+							<figure><img src="<?php echo $root; ?>images/renewal-open.jpg" alt="リニューアルオープン"></figure>
 							<div class="u-paddingWithoutTop18">
-								<time datetime="2020-02-08">2020/02/08</time>
-								<h3>ホームページリニューアルのお知らせ</h3>
-								<p>ご利用いただき、誠にありがとうございます。この度、ホームページを全面リニュー…</p>
+								<time datetime="2021-04-05">2021/04/05</time>
+								<h3>G-STAGE・JAPAN株式会社のコーポレートサイトをリニューアルいたしました</h3>
+								<p>掲載商品の詳細はこちら</p>
+							</div>
+						</a>
+					</li>
+					<li>
+						<a href="<?php echo $root; ?>news/#n4">
+							<figure><img src="<?php echo $root; ?>images/20210325.jpg" alt="2021年3月25日"></figure>
+							<div class="u-paddingWithoutTop18">
+								<time datetime="2021-03-25">2021/03/25</time>
+								<h3>メディア情報◆雑誌掲載「Safari5月号」に掲載されました</h3>
+								<p>掲載商品の詳細はこちら</p>
 							</div>
 						</a>
 					</li>
 					<li>
 						<a href="<?php echo $root; ?>news/#n2">
-							<figure><img src="<?php echo $root; ?>images/m8.jpg" alt=""></figure>
+							<figure><img src="<?php echo $root; ?>images/20210305.jpg" alt="2021年3月5日"></figure>
 							<div class="u-paddingWithoutTop18">
-								<time datetime="2020-02-08">2020/02/08</time>
-								<h3>メディア情報 ◆ 雑誌掲載<br>「Safari3月号」に掲載されました！</h3>
-								<p>“大人シャツの個性出しは刺繍柄が効く”前身頃に刺繍をあしらった大人上品なシャツ…</p>
+								<time datetime="2021-03-05">2021/03/05</time>
+								<h3>メディア情報◆雑誌掲載「GOLFTODAY4月号」に掲載されました</h3>
+								<p>掲載商品の詳細はこちら</p>
 							</div>
 						</a>
 					</li>
 					<li>
-						<a href="<?php echo $root; ?>news/#n3">
-							<figure><img src="<?php echo $root; ?>images/shop.jpg" alt=""></figure>
+						<a href="<?php echo $root; ?>news/#n1">
+							<figure><img src="<?php echo $root; ?>images/20210125.jpg" alt="2021年1月25日"></figure>
 							<div class="u-paddingWithoutTop18">
-								<time datetime="2020-02-08">2020/02/08</time>
-								<h3>G-stage取り扱い店のご案内</h3>
-								<p>阪神梅田本店 6F<br>新宿小田急エース北館西<br>[オクル×シタテル Odakyu Selection]</p>
+								<time datetime="2021-01-25">2021/01/25</time>
+								<h3>メディア情報◆雑誌掲載「Safari3月号」に掲載されました</h3>
+								<p>掲載商品の詳細はこちら</p>
 							</div>
 						</a>
 					</li>
@@ -132,8 +142,9 @@
 					<figure><img sizes="<?php echo $media2; ?>" srcset="<?php echo $root; ?>images/vision1-s.jpg <?php echo $sp ?>w, <?php echo $root; ?>images/vision1-l.jpg <?php echo $tb ?>w" src="<?php echo $root; ?>imagse/vision1-s.jpg" alt=""></figure>
 				</div>
 				<div class="l-column__nallow c-passage">
-					<h3>タイトルを入れます！<br>2行くらい入れれればベストです</h3>
-					<p>こちらはダミーテキストです。企業理念が入ります。<br>こちらはダミーテキストです。こちらはダミーテキストです。こちらはダミーテキストです。こちらはダミーテキストです。こちらはダミーテキストです。こちらはダミーテキストです。こちらはダミーテキストです。<br>こちらはダミーテキストです。こちらはダミーテキストです。こちらはダミーテキストです。こちらはダミーテキストです。こちらはダミーテキストです。</p>
+					<h3>Change your life<br>ファッションで人生を豊かに</h3>
+					<p class="u-paragraphDash110">大人が価値を感じる、品と遊び心が共存する<br>ファッションをアクセスしやすい価格で提供し<br>着る人の人生をより豊かにする</p>
+					<p>ファッションの力を信じ、唯一無二の価値を創造<br>し続けることが我々の使命です</p>
 				</div>
 				<div class="l-column__nallow c-parallelBanner u-paddingSideSP18">
 					<figure class="c-parallelBanner__figure u-fadeImgWrap"><img sizes="<?php echo $media2; ?>" srcset="<?php echo $root; ?>images/510705_1m6-s.jpg <?php echo $sp ?>w, <?php echo $root; ?>images/510705_1m6-l.jpg <?php echo $tb ?>w" src="<?php echo $root; ?>images/510705_1m6-s.jpg" alt="" class="is-fadeToBottomImg c-parallelBanner__img"></figure>
@@ -145,15 +156,14 @@
 			<section class="l-section">
 				<h2><span class="is-fadeToBottom">Instagram<span class="u-rubyBottom">インスタグラム</span></span></h2>
 				<ul class="c-tile">
-					<li class="c-fadeInImage"><a href="#" class="is-fadeInImg is-1s"><figure><img src="images/insta1-s.jpg" alt=""></figure></a></li>
-					<li class="c-fadeInImage"><a href="#" class="is-fadeInImg is-2s"><figure><img src="images/insta2-s.jpg" alt=""></figure></a></li>
-					<li class="c-fadeInImage"><a href="#" class="is-fadeInImg is-3s"><figure><img src="images/insta3-s.jpg" alt=""></figure></a></li>
-					<li class="c-fadeInImage"><a href="#" class="is-fadeInImg is-4s"><figure><img src="images/insta4-s.jpg" alt=""></figure></a></li>
-					<li class="c-fadeInImage"><a href="#" class="is-fadeInImg is-5s"><figure><img src="images/insta5-s.jpg" alt=""></figure></a></li>
-					<li class="c-fadeInImage"><a href="#" class="is-fadeInImg is-6s"><figure><img src="images/insta6-s.jpg" alt=""></figure></a></li>
-					<li class="c-fadeInImage"><a href="#" class="is-fadeInImg is-7s"><figure><img src="images/insta7-s.jpg" alt=""></figure></a></li>
-					<li class="c-fadeInImage"><a href="#" class="is-fadeInImg is-8s"><figure><img src="images/insta8-s.jpg" alt=""></figure></a></li>
-					<li class="c-fadeInImage"><a href="#" class="is-fadeInImg is-9s"><figure><img src="images/insta9-s.jpg" alt=""></figure></a></li>
+					<li class="c-fadeInImage"><a href="https://www.instagram.com/g_stage.gallipoli/?hl=ja" target="_blank" class="is-fadeInImg is-1s"><figure><img src="images/insta1-s.jpg" alt=""></figure></a></li>
+					<li class="c-fadeInImage"><a href="https://www.instagram.com/g_stage.gallipoli/?hl=ja" target="_blank" class="is-fadeInImg is-2s"><figure><img src="images/insta2-s.jpg" alt=""></figure></a></li>
+					<li class="c-fadeInImage"><a href="https://www.instagram.com/g_stage.gallipoli/?hl=ja" target="_blank" class="is-fadeInImg is-3s"><figure><img src="images/insta3-s.jpg" alt=""></figure></a></li>
+					<li class="c-fadeInImage"><a href="https://www.instagram.com/g_stage.gallipoli/?hl=ja" target="_blank" class="is-fadeInImg is-4s"><figure><img src="images/insta4-s.jpg" alt=""></figure></a></li>
+					<li class="c-fadeInImage"><a href="https://www.instagram.com/g_stage.gallipoli/?hl=ja" target="_blank"c lass="is-fadeInImg is-5s"><figure><img src="images/insta5-s.jpg" alt=""></figure></a></li>
+					<li class="c-fadeInImage"><a href="https://www.instagram.com/g_stage.gallipoli/?hl=ja" target="_blank" class="is-fadeInImg is-6s"><figure><img src="images/insta6-s.jpg" alt=""></figure></a></li>
+					<li class="c-fadeInImage"><a href="https://www.instagram.com/g_stage.gallipoli/?hl=ja" target="_blank" class="is-fadeInImg is-7s"><figure><img src="images/insta7-s.jpg" alt=""></figure></a></li>
+					<li class="c-fadeInImage"><a href="https://www.instagram.com/g_stage.gallipoli/?hl=ja" target="_blank" class="is-fadeInImg is-9s"><figure><img src="images/insta9-s.jpg" alt=""></figure></a></li>
 				</ul>
 			</section>
 		</div>

@@ -78,3 +78,14 @@
 		margin-right: 10px;
 	}
 }
+
+.u-paragraphDash110 {
+	&::after {
+		content: "";
+		display: inline-block;
+		margin-bottom: .3em;
+		width: 110px;
+		height: 1px;
+		background: #000;
+	}
+}

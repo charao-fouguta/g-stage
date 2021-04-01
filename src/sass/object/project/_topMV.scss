@@ -9,8 +9,11 @@
 	width: 100%;
 	height: auto;
 	@include mq(tb) {
-		margin-bottom: 75px;
-		height: 100vh;
+		margin: 0 auto 75px; //margin-bottom: 75px;から変更
+		height: 700px  //100vh;から変更
+	}
+	@include mq(pc) {
+		width: 1000px; //追加
 	}
 }
 .p-topMVWrapper__inner {
@@ -24,7 +27,7 @@
 		margin-right: .5%;
 		padding-right: 0;
 		width: 99.5%;
-		height: 100vh;
+		height: 700px; //100vh;から変更
 	}
 }
 .p-topMV {
@@ -48,11 +51,14 @@
 			position: relative;
 			width: 100%;
 			min-height: 424px;
-			
+			@include mq(pb) {
+				min-height: 850px;
+			}
 			@include mq(tb) {
 				position: absolute;
 				width: 92%;
 				height: 90%;
+				min-height: 424px;
 			}
 			//position: relative;
 			li {
@@ -78,8 +84,12 @@
 			height: 100%;
 			object-fit: cover;
 			object-position: top left;
+
+			@include mq(pb) {
+				object-position: center;
+			}
 			@include mq(tb) {
-			object-position: inherit;
+				object-position: top center;
 			}
 		}
 		figcaption {
@@ -108,7 +118,10 @@
 				opacity: 0;
 				transition: .3s;
 				@include mq(tb) {
-					font-size: 12rem;
+					font-size: 8rem;
+				}
+				@include mq(pc) {
+					font-size: 10rem;
 				}
 			}
 			.p-topMVTitle__bottom {
@@ -129,6 +142,9 @@
 				opacity: 0;
 				transition: .3s;
 				@include mq(tb) {
+					font-size: 3rem;
+				}
+				@include mq(pc) {
 					font-size: 4rem;
 				}
 			}

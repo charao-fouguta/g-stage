@@ -118,6 +118,7 @@
 			&.is-viewOpen {
 				max-height: 100vh;
 				&::after {
+					height: 0;
 					background: transparent;
 				}
 			}

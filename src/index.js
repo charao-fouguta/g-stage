@@ -156,8 +156,8 @@ let artcleMessage = document.getElementsByClassName('c-articleList__message');
 let viewDetail = document.getElementsByClassName('c-articleList__viewDetail');
 let closeDetail = document.getElementsByClassName('c-articleList__closeDetail');
 
-if (artcleMessage) {
-	for (let i=0; i<artcleMessage.length; i++) {
+if (viewDetail) {
+	for (let i=0; i<viewDetail.length; i++) {
 		viewDetail[i].addEventListener('click', function () {
 			if (!artcleMessage[i].classList.contains('is-viewOpen')) {
 				artcleMessage[i].classList.add('is-viewOpen');
@@ -167,8 +167,8 @@ if (artcleMessage) {
 		});
 	}
 }
-if (artcleMessage) {
-	for (let i=0; i<artcleMessage.length; i++) {
+if (viewDetail) {
+	for (let i=0; i<viewDetail.length; i++) {
 		closeDetail[i].addEventListener('click', function () {
 			if (artcleMessage[i].classList.contains('is-viewOpen')) {
 				artcleMessage[i].classList.remove('is-viewOpen');
