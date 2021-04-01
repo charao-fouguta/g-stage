@@ -1,0 +1,52 @@
+.parsley-required, .parsley-type{
+    color: #ff5252;
+    margin-top: 10px !important;
+}
+.wrap_checkarea{
+    position: relative;
+}
+.wrap_checkarea .parsley-required{
+    position: absolute;
+    bottom:30px;
+    left:0;
+}
+.formTable{
+    width: 1000px;
+    margin: 0 auto;
+}
+.p-form__name{
+    border-top: none;
+    border-right: none;
+    border-bottom: solid 1px #c9caca;
+    border-left: none;
+    padding: 1em;
+    width: 100%;
+    font-size: 2rem;
+    word-break: break-all;
+}
+.p-form__name.name{
+    width: 45%;
+}
+.p-form__name.mail{
+    width: 70%;
+}
+.formTable{
+    width: 1000px;
+    margin: 0 auto;
+}
+.p-form__name{
+    border-top: none;
+    border-right: none;
+    border-bottom: solid 1px #c9caca;
+    border-left: none;
+    padding: 1em;
+    width: 100%;
+    font-size: 2rem;
+    word-break: break-all;
+}
+.p-form__name.name{
+    width: 45%;
+}
+.p-form__name.mail:nth-child(6){
+    width: 70%;
+}

@@ -1,10 +1,9 @@
 <?php include('../component/function_path.php'); ?>
 <?php include_once('../header.php'); ?>
-<?php include_once('../component/function_media.php'); ?>
 <div class="l-main u-paddingSideTB50">
 	<main>
 		<div class="l-column__nallow u-paddingSide18">
-			<section class="l-section l-pageTop">
+			<section class="l-section l-pageTop" id="contact">
 				<h1><span>Contact<span class="u-rubyBottom u-pagetop">お問い合わせ</span></span></h1>
 				<div class="l-breadcrumb">
 					<a href="<?php echo $root; ?>">Home</a>
@@ -14,21 +13,19 @@
 					<p>下記フォームに必要事項を入力のうえ、Confirmボタンをクリックし確認画面へお進みください。<br>送信されたお問い合わせ内容を確認後、後日担当者よりご連絡いたします。</p>
 					<p><span class="u-colorRed">※</span>は必須入力項目です</p>
 				</div>
-				<form action="./confirm.php" method="post">
+				<form action="confirm.php" method="post" id="validate_form">
 					<div class="p-form__input">
 						<p class="p-form__title">お名前<span class="u-caution">※</span></p>
-						<input type="text" name="name" placeholder="例) 木永　いずみ" class="p-form__name">
-						<div class="p-form__caution">※この項目は必須事項です。</div>
+						<input type="text" name="お名前" placeholder="例) 木永　いずみ" class="p-form__name" required data-parsley-required-message="※この項目は必須事項です。">
 						<p class="p-form__title">電話番号</p>
-						<input type="text" name="tel" placeholder="例) 06-6947-7055" class="p-form__tel">
+						<input type="text" name="電話番号" placeholder="例) 06-6947-7055" class="p-form__tel">
 						<p class="p-form__title">メールアドレス<span class="u-caution">※</span></p>
-						<input type="text" name="mail" placeholder="例) info@g-stage1967.com" class="p-form__mail">
-						<div class="p-form__caution is-alert">※この項目は必須事項です。</div>
+						<input type="text" type="email" data-parsley-type="email" name="メールアドレス" placeholder="例) info@g-stage1967.com" class="p-form__mail" required data-parsley-required-message="※この項目は必須事項です。"data-parsley-type-message="有効な電子メールアドレスでなければなりません">
 						<p class="p-form__title">お問い合わせ内容<span class="u-caution">※</span></p>
-						<textarea name="message" rows="10"></textarea>
-						<div class="p-form__caution">※この項目は必須事項です。</div>
+						<textarea name="お問い合わせ内容" rows="10" required data-parsley-required-message="※この項目は必須事項です。"></textarea>
 					</div>
-					<div class="p-form__privacyPolicy">
+					<div class="wrap_checkarea">
+						<div class="p-form__privacyPolicy">
 						<p>個人情報の取り扱いについて<span class="u-caution">※</span></p>
 						<div>
 							<h2>個人情報の取り扱いについて</h2>
@@ -78,7 +75,8 @@
 						</div>
 					</div>
 					<div class="p-form__admission">
-						<input type="checkbox" name="" id="check"><label for="check">個人情報の取り扱いについてに同意する</label>
+						<input type="checkbox" data-parsley-required="true" data-parsley-trigger="click" data-parsley-required-message="※この項目は必須事項です。" name="" id="check"><label for="check">個人情報の取り扱いについてに同意する</label>
+					</div>
 					</div>
 					<div class="p-form__caution">※この項目は必須事項です。</div>
 					<div class="p-form__submission c-button__short"><input type="submit" value="confirm" ></div>

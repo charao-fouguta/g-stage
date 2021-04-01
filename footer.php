@@ -24,5 +24,13 @@
 	<script src="<?php echo $root; ?>js/lib/jquery/colorbox/jquery.colorbox.js"></script>
 	<script src="<?php echo $root; ?>js/lib/jquery/colorbox/colorbox-func.js"></script>
 	<script src="<?php echo $root; ?>js/lib/jquery/fade/fade.js"></script>
+	<!-- validate -->
+	<script src = "https://code.jquery.com/jquery-3.4.1.min.js"></script>
+	<script src="http://parsleyjs.org/dist/parsley.js"></script>
+	<script>
+		$(document).ready(function() {
+			$('#validate_form').parsley();
+		});
+	</script>
 </body>
 </html>
