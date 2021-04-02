@@ -9,12 +9,13 @@ class SendEmail
 
 	public function sendContactToAdmin($data) {
 		try {
-			$from = 'test@********';
+			$from = 'oono@xend.co.jp';
 
 			mb_language("JA");
 			mb_internal_encoding("UTF-8");
 
 			$header  = 'From:' . mb_encode_mimeheader("G-STAGE・JAPAN株式会社") . '<' . $from . '>' . "\n";
+			$header  .= 'To:' . mb_encode_mimeheader("ユーザー名") . '<' . 'oono@xend.co.jp' . '>' . "\n";
 			$subject = '【G-STAGE・JAPAN株式会社ブランドサイト新規お問い合わせ】';
 			$body = $this->buildBodyContact('admin', $data);
 
@@ -35,6 +36,7 @@ class SendEmail
 			mb_language("JA");
 			mb_internal_encoding("UTF-8");
 			$header  = 'From:' . mb_encode_mimeheader("G-STAGE・JAPAN株式会社") . '<' . $from . '>' . "\n";
+			$header  .= 'To:' . mb_encode_mimeheader("ユーザー名") . '<' . 'oono@xend.co.jp' . '>' . "\n";
 
 			$subject = '【G-STAGE・JAPAN株式会社】お問い合わせありがとうございます';
 			$body = $this->buildBodyContact('user', $data);
