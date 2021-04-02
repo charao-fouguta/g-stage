@@ -83,7 +83,7 @@
 					<li id="n1">
 						<div>
 							<div class="c-articleList__imgWrap">
-								<figure><img src="<?php echo $root; ?>images/20210325.jpg" alt="2021年1月25日"></figure>
+								<figure><img src="<?php echo $root; ?>images/20210125.jpg" alt="2021年1月25日"></figure>
 								<time datetime="2021-01-25">2021.01.25</time>
 							</div>
 							<div class="c-articleList__meta u-paddingSide18">
