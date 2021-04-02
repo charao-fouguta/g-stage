@@ -122,6 +122,8 @@
 					*/
 					?>
 				</ul>
+				<?php
+				/*
 				<div class="c-pageNavi">
 					<span class="c-currentPage">1</span>
 					<a href="">2</a>
@@ -130,6 +132,8 @@
 					<a href="">5</a>
 					<a href="">→</a>
 				</div>
+				*/
+				?>
 			</section>
 		</div>
 	</main>

@@ -160,9 +160,10 @@
 					<li class="c-fadeInImage"><a href="https://www.instagram.com/g_stage.gallipoli/?hl=ja" target="_blank" class="is-fadeInImg is-2s"><figure><img src="images/insta2-s.jpg" alt=""></figure></a></li>
 					<li class="c-fadeInImage"><a href="https://www.instagram.com/g_stage.gallipoli/?hl=ja" target="_blank" class="is-fadeInImg is-3s"><figure><img src="images/insta3-s.jpg" alt=""></figure></a></li>
 					<li class="c-fadeInImage"><a href="https://www.instagram.com/g_stage.gallipoli/?hl=ja" target="_blank" class="is-fadeInImg is-4s"><figure><img src="images/insta4-s.jpg" alt=""></figure></a></li>
-					<li class="c-fadeInImage"><a href="https://www.instagram.com/g_stage.gallipoli/?hl=ja" target="_blank"c lass="is-fadeInImg is-5s"><figure><img src="images/insta5-s.jpg" alt=""></figure></a></li>
+					<li class="c-fadeInImage"><a href="https://www.instagram.com/g_stage.gallipoli/?hl=ja" target="_blank" class="is-fadeInImg is-5s"><figure><img src="images/insta5-s.jpg" alt=""></figure></a></li>
 					<li class="c-fadeInImage"><a href="https://www.instagram.com/g_stage.gallipoli/?hl=ja" target="_blank" class="is-fadeInImg is-6s"><figure><img src="images/insta6-s.jpg" alt=""></figure></a></li>
 					<li class="c-fadeInImage"><a href="https://www.instagram.com/g_stage.gallipoli/?hl=ja" target="_blank" class="is-fadeInImg is-7s"><figure><img src="images/insta7-s.jpg" alt=""></figure></a></li>
+					<li class="c-fadeInImage"><a href="https://www.instagram.com/g_stage.gallipoli/?hl=ja" target="_blank" class="is-fadeInImg is-8s"><figure><img src="images/insta8-s.jpg" alt=""></figure></a></li>
 					<li class="c-fadeInImage"><a href="https://www.instagram.com/g_stage.gallipoli/?hl=ja" target="_blank" class="is-fadeInImg is-9s"><figure><img src="images/insta9-s.jpg" alt=""></figure></a></li>
 				</ul>
 			</section>
