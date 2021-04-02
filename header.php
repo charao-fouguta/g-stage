@@ -24,7 +24,7 @@
 								<li><a href="<?php echo $root; ?>news/">News<span>お知らせ</span></a></li>
 								<li><a href="<?php echo $root; ?>store/">Store<span>店舗一覧</span></a></li>
 								<li><a href="<?php echo $root; ?>about/">About<span>私たちについて</span></a></li>
-								<li><a href="<?php echo $root; ?>contact/">Contact<span>お問い合わせ</span></a></li>
+								<li><a href="mailto:hashimoto@xend.co.jp">Contact<span>お問い合わせ</span></a></li>
 							</ul>
 						</nav>
 						<div class="l-header__outerLinks">
