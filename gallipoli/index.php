@@ -1,3 +1,6 @@
+<?php
+$meta = ['title'=>'GALLIPOLI camiceria｜G-STAGE JAPAN株式会社', 'description'=>'ブランド名にもなっている南イタリア、サレント半島の西に位置する海沿いの街ガリポリ。照りつける太陽や爽快な空、青く澄んだ海、そして街を行き交う陽気な人々。それらがGALLIPOLI camiceriaのイメージソースとなっています。'];
+?>
 <?php include('../component/function_path.php'); ?>
 <?php include_once('../header.php'); ?>
 <?php include_once('../component/function_media.php'); ?>

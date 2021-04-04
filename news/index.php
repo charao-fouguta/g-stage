@@ -1,3 +1,6 @@
+<?php
+$meta = ['title'=>'News｜G-STAGE JAPAN株式会社', 'description'=>'G-stage、GALLIPOLI camiceriaの新着、セールス情報、限定情報、メディア情報をいち早くお届けします！'];
+?>
 <?php include('../component/function_path.php'); ?>
 <?php include_once('../header.php'); ?>
 <?php include_once('../component/function_media.php'); ?>

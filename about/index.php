@@ -1,3 +1,6 @@
+<?php
+$meta = ['title'=>'About｜G-STAGE JAPAN株式会社', 'description'=>'メンズファッション関連事業を国内4拠点、4店舗、オンラインショップ展開。縫製専門の高松市の自社工場は高品質で信頼性の高い国産品を生産。OEM•ODM事業も展開中です。'];
+?>
 <?php include('../component/function_path.php'); ?>
 <?php include_once('../header.php'); ?>
 <?php include_once('../component/function_media.php'); ?>

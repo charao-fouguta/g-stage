@@ -1,3 +1,6 @@
+<?php
+$meta = ['title'=>'G-stage｜G-STAGE JAPAN株式会社', 'description'=>'伝統と現代性」「機能性とファッション性」を融合し“遊び心”のスパイスをきかせた大人のドレスポスタイルを提案。特に、こだわりの生地を使ったジャケットとカジュアルアウターをコアに上質で洗練された大人のドレスポスタイルをトータルに展開。'];
+?>
 <?php include('../component/function_path.php'); ?>
 <?php include_once('../header.php'); ?>
 <?php include_once('../component/function_media.php'); ?>

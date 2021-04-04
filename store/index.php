@@ -1,3 +1,6 @@
+<?php
+$meta = ['title'=>'Store｜G-STAGE JAPAN株式会社', 'description'=>'大阪梅田、横浜、渋谷、京都の4実店舗に加えオンラインストア展開！'];
+?>
 <?php include('../component/function_path.php'); ?>
 <?php include_once('../header.php'); ?>
 <?php include_once('../component/function_media.php'); ?>
