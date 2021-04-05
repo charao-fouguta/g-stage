@@ -18,7 +18,7 @@
 	bottom: -.15em;
 	left: 0;
 	font-family: "Noto Serif JP" !important;
-	font-size: .22em !important;
+	font-size: .2em !important;
 	&.u-bottom0 {
 		bottom: 0;
 	}
@@ -27,7 +27,7 @@
 	}
 	@include mq(tb) {
 		bottom: 3em;
-		font-size: .075em !important;
+		font-size: .07em !important;
 		&.u-bottom0 {
 			bottom: 0;
 		}
@@ -37,6 +37,9 @@
 		&.u-pagetop{
 			bottom: 2em;
 			font-size: 1.2rem !important;
+		}
+		&.u-fs07 {
+			font-size: .7em !important;
 		}
 	}
 }
@@ -56,6 +59,9 @@
 	@include mq(tb) {
 		bottom: -2em;
 		font-size: .15em !important;
+		&.u-MVrubyG-stage {
+			bottom: 1em;
+		}
 	}
 }
 .u-colorRed {	
@@ -87,5 +93,19 @@
 		width: 110px;
 		height: 1px;
 		background: #000;
+	}
+}
+
+.u-specialFont1 {
+	width: 300px !important;
+	font-size: 3.7em !important;
+	text-align: left;
+	@include mq(tb) {
+		width: 72% !important;
+		font-size: 6em !important;
+	}
+	@include mq(pc) {
+		width: 850px !important;
+		font-size: 11em !important;
 	}
 }

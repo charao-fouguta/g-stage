@@ -16,7 +16,7 @@ $meta = ['title'=>'G-STAGE JAPAN株式会社　公式サイト', 'description'=>
 								<a href="<?php echo $root; ?>g-stage/">
 									<figure>
 										<img sizes="<?php echo $media2; ?>" srcset="<?php echo $root; ?>images/mv-g-stage-s4.jpg <?php echo $sp ?>w, images/mv-g-stage-l4.jpg <?php echo $tb ?>w" src="images/mv-g-stage-s4.jpg" alt="G-stage" class="p-gStageImg">
-										<figcaption><span class="p-topMVTitle">G-stage<span class="u-rubyBottomCenter">ジーステージ</span></span><span class="p-topMVTitle__bottom">VIEW MORE</span></figcaption>
+										<figcaption><span class="p-topMVTitle">G-stage<span class="u-rubyBottomCenter u-MVrubyG-stage">ジーステージ</span></span><span class="p-topMVTitle__bottom">VIEW MORE</span></figcaption>
 									</figure>
 								</a>
 							</li>
@@ -24,7 +24,7 @@ $meta = ['title'=>'G-STAGE JAPAN株式会社　公式サイト', 'description'=>
 								<a href="<?php echo $root; ?>g-stage/">
 									<figure>
 										<img sizes="<?php echo $media2; ?>" srcset="<?php echo $root; ?>images/mv-g-stage-s3.jpg <?php echo $sp ?>w, images/mv-g-stage-l3.jpg <?php echo $tb ?>w" src="images/mv-g-stage-s3.jpg" alt="G-stage" class="p-gStageImg">
-										<figcaption><span class="p-topMVTitle">G-stage<span class="u-rubyBottomCenter">ジーステージ</span></span><span class="p-topMVTitle__bottom">VIEW MORE</span></figcaption>
+										<figcaption><span class="p-topMVTitle">G-stage<span class="u-rubyBottomCenter u-MVrubyG-stage">ジーステージ</span></span><span class="p-topMVTitle__bottom">VIEW MORE</span></figcaption>
 									</figure>
 								</a>
 							</li>
@@ -32,7 +32,7 @@ $meta = ['title'=>'G-STAGE JAPAN株式会社　公式サイト', 'description'=>
 								<a href="<?php echo $root; ?>g-stage/">
 									<figure>
 										<img sizes="<?php echo $media2; ?>" srcset="<?php echo $root; ?>images/mv-g-stage-s2.jpg <?php echo $sp ?>w, images/mv-g-stage-l2.jpg <?php echo $tb ?>w" src="images/mv-g-stage-s2.jpg" alt="G-stage" class="p-gStageImg">
-										<figcaption><span class="p-topMVTitle">G-stage<span class="u-rubyBottomCenter">ジーステージ</span></span><span class="p-topMVTitle__bottom">VIEW MORE</span></figcaption>
+										<figcaption><span class="p-topMVTitle">G-stage<span class="u-rubyBottomCenter u-MVrubyG-stage">ジーステージ</span></span><span class="p-topMVTitle__bottom">VIEW MORE</span></figcaption>
 									</figure>
 								</a>
 							</li>
@@ -40,7 +40,7 @@ $meta = ['title'=>'G-STAGE JAPAN株式会社　公式サイト', 'description'=>
 								<a href="<?php echo $root; ?>g-stage/">
 									<figure>
 										<img sizes="<?php echo $media2; ?>" srcset="<?php echo $root; ?>images/mv-g-stage-s1.jpg <?php echo $sp ?>w, images/mv-g-stage-l1.jpg <?php echo $tb ?>w" src="images/mv-g-stage-s1.jpg" alt="G-stage" class="p-gStageImg">
-										<figcaption><span class="p-topMVTitle">G-stage<span class="u-rubyBottomCenter">ジーステージ</span></span><span class="p-topMVTitle__bottom">VIEW MORE</span></figcaption>
+										<figcaption><span class="p-topMVTitle">G-stage<span class="u-rubyBottomCenter u-MVrubyG-stage">ジーステージ</span></span><span class="p-topMVTitle__bottom">VIEW MORE</span></figcaption>
 									</figure>
 								</a>
 							</li>
@@ -141,8 +141,8 @@ $meta = ['title'=>'G-STAGE JAPAN株式会社　公式サイト', 'description'=>
 		<div class="l-column__wide">
 			<section class="l-section">
 				<div class="c-wideBanner">
-				<h2><span class="is-fadeToBottom u-positionCenter">Corporate vision<span class="u-rubyBottom">企業理念</span></span></h2>
-					<figure><img sizes="<?php echo $media2; ?>" srcset="<?php echo $root; ?>images/vision1-s.jpg <?php echo $sp ?>w, <?php echo $root; ?>images/vision1-l.jpg <?php echo $tb ?>w" src="<?php echo $root; ?>imagse/vision1-s.jpg" alt=""></figure>
+				<h2><span class="is-fadeToBottom u-positionCenter u-specialFont1">Corporate vision<span class="u-rubyBottom">企業理念</span></span></h2>
+					<figure><img sizes="<?php echo $media2; ?>" srcset="<?php echo $root; ?>images/vision1-s.jpg <?php echo $sp ?>w, <?php echo $root; ?>images/vision1-l.jpg <?php echo $tb ?>w" src="<?php echo $root; ?>images/vision1-s.jpg" alt=""></figure>
 				</div>
 				<div class="l-column__nallow c-passage">
 					<h3>Change your life<br>ファッションで人生を豊かに</h3>

@@ -14,7 +14,7 @@ $meta = ['title'=>'News｜G-STAGE JAPAN株式会社', 'description'=>'G-stage、
 					<div>News</div>
 				</div>
 				<div class="c-wideBanner u-MB0">
-					<figure><img sizes="<?php echo $media2; ?>" srcset="<?php echo $root; ?>images/page-mv-news-s.jpg <?php echo $sp; ?>w, <?php echo $root; ?>images/page-mv-news-l.jpg <?php echo $tb; ?>w" src="<?php echo $root; ?>imagse/page-mv-news-s.jpg" alt="news"></figure>
+					<figure><img sizes="<?php echo $media2; ?>" srcset="<?php echo $root; ?>images/page-mv-news-s.jpg <?php echo $sp; ?>w, <?php echo $root; ?>images/page-mv-news-l.jpg <?php echo $tb; ?>w" src="<?php echo $root; ?>images/page-mv-news-s.jpg" alt="news"></figure>
 				</div>
 			</section>
 		</div>

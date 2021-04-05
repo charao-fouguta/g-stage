@@ -26,6 +26,8 @@
 	<script src="<?php echo $root; ?>js/lib/jquery/colorbox/jquery.colorbox.js"></script>
 	<script src="<?php echo $root; ?>js/lib/jquery/colorbox/colorbox-func.js"></script>
 	<script src="<?php echo $root; ?>js/lib/jquery/fade/fade.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/object-fit-images/3.2.4/ofi.js"></script>
+	<script> objectFitImages(); </script>
 	<script>
 		$(document).ready(function() {
 			$('#validate_form').parsley();

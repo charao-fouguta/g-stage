@@ -17,7 +17,7 @@ $meta = ['title'=>'About｜G-STAGE JAPAN株式会社', 'description'=>'メンズ
 				</section>
 				<section>
 					<div class="c-wideBanner">
-						<figure><img sizes="<?php echo $media2; ?>" srcset="<?php echo $root; ?>images/page-mv-about-s.jpg <?php echo $sp; ?>w, <?php echo $root; ?>images/page-mv-about-l.jpg <?php echo $tb; ?>w" src="<?php echo $root; ?>imagse/page-mv-about-s.jpg" alt=""></figure>
+						<figure><img sizes="<?php echo $media2; ?>" srcset="<?php echo $root; ?>images/page-mv-about-s.jpg <?php echo $sp; ?>w, <?php echo $root; ?>images/page-mv-about-l.jpg <?php echo $tb; ?>w" src="<?php echo $root; ?>images/page-mv-about-s.jpg" alt=""></figure>
 					</div>
 					<div class="l-columnRow l-column__nallow c-passage__pattern2 u-flex25-75__PC">
 						<div class="u-flex22-78__PC">
@@ -97,7 +97,7 @@ $meta = ['title'=>'About｜G-STAGE JAPAN株式会社', 'description'=>'メンズ
 				</section>
 				<section>
 					<div class="c-wideBanner u-verticalM100">
-						<figure><img sizes="<?php echo $media2; ?>" srcset="<?php echo $root; ?>images/page-mv-about2-s.jpg <?php echo $sp; ?>w, <?php echo $root; ?>images/page-mv-about2-l.jpg <?php echo $tb; ?>w" src="<?php echo $root; ?>imagse/page-mv-about2-s.jpg" alt=""></figure>
+						<figure><img sizes="<?php echo $media2; ?>" srcset="<?php echo $root; ?>images/page-mv-about2-s.jpg <?php echo $sp; ?>w, <?php echo $root; ?>images/page-mv-about2-l.jpg <?php echo $tb; ?>w" src="<?php echo $root; ?>images/page-mv-about2-s.jpg" alt=""></figure>
 					</div>
 					<div class="l-columnRow l-column__nallow c-passage__pattern2 u-flexHalf__PC">
 						<div>
@@ -107,7 +107,7 @@ $meta = ['title'=>'About｜G-STAGE JAPAN株式会社', 'description'=>'メンズ
 						</div>
 						<div class="u-square">
 							<div>
-								<figure><img sizes="<?php echo $media2; ?>" srcset="<?php echo $root; ?>images/takamatsu-Shirt-sewing-factory-s.jpg <?php echo $sp; ?>w, <?php echo $root; ?>images/takamatsu-Shirt-sewing-factory-l.jpg <?php echo $tb; ?>w" src="<?php echo $root; ?>imagse/takamatsu-Shirt-sewing-factory-s.jpg" alt="高松シャツ工房"></figure>
+								<figure><img sizes="<?php echo $media2; ?>" srcset="<?php echo $root; ?>images/takamatsu-Shirt-sewing-factory-s.jpg <?php echo $sp; ?>w, <?php echo $root; ?>images/takamatsu-Shirt-sewing-factory-l.jpg <?php echo $tb; ?>w" src="<?php echo $root; ?>images/takamatsu-Shirt-sewing-factory-s.jpg" alt="高松シャツ工房"></figure>
 							</div>
 						</div>
 					</div>

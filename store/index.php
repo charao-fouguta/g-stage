@@ -15,7 +15,7 @@ $meta = ['title'=>'Store｜G-STAGE JAPAN株式会社', 'description'=>'大阪梅
 						<div>Store</div>
 					</div>
 					<div class="c-wideBanner">
-						<figure><img sizes="<?php echo $media2; ?>" srcset="<?php echo $root; ?>images/page-mv-store-s.jpg <?php echo $sp; ?>w, <?php echo $root; ?>images/page-mv-store-l.jpg <?php echo $tb; ?>w" src="<?php echo $root; ?>imagse/page-mv-store-s.jpg" alt=""></figure>
+						<figure><img sizes="<?php echo $media2; ?>" srcset="<?php echo $root; ?>images/page-mv-store-s.jpg <?php echo $sp; ?>w, <?php echo $root; ?>images/page-mv-store-l.jpg <?php echo $tb; ?>w" src="<?php echo $root; ?>images/page-mv-store-s.jpg" alt=""></figure>
 					</div>
 				</section>
 				<div class="l-column__nallow u-paddingSideSP18">
@@ -117,7 +117,7 @@ $meta = ['title'=>'Store｜G-STAGE JAPAN株式会社', 'description'=>'大阪梅
 					</div>
 				</div>
 				<div class="c-wideBanner">
-					<figure><img sizes="<?php echo $media2; ?>" srcset="<?php echo $root; ?>images/page-mv-store2-s.jpg <?php echo $sp; ?>w, <?php echo $root; ?>images/page-mv-store2-l.jpg <?php echo $tb; ?>w" src="<?php echo $root; ?>imagse/page-mv-store2-s.jpg" alt=""></figure>
+					<figure><img sizes="<?php echo $media2; ?>" srcset="<?php echo $root; ?>images/page-mv-store2-s.jpg <?php echo $sp; ?>w, <?php echo $root; ?>images/page-mv-store2-l.jpg <?php echo $tb; ?>w" src="<?php echo $root; ?>images/page-mv-store2-s.jpg" alt=""></figure>
 				</div>
 			</article>
 		</div>

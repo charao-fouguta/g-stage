@@ -1,5 +1,5 @@
 <?php
-$meta = ['title'=>'GALLIPOLI camiceria｜G-STAGE JAPAN株式会社', 'description'=>'ブランド名にもなっている南イタリア、サレント半島の西に位置する海沿いの街ガリポリ。照りつける太陽や爽快な空、青く澄んだ海、そして街を行き交う陽気な人々。それらがGALLIPOLI camiceriaのイメージソースとなっています。'];
+$meta = ['title'=>'GALLIPOLI camiceria｜G-STAGE JAPAN株式会社', 'description'=>'南イタリアの港町ガリポリの陽気な空気感をイメージソースにした、＂ １枚でサマになる大人シャツ ＂をコンセプトにしたシャツブランド。シャツは全て、高松の自社シャツ専業工場が縫製するジャパンメイド。'];
 ?>
 <?php include('../component/function_path.php'); ?>
 <?php include_once('../header.php'); ?>
@@ -8,13 +8,13 @@ $meta = ['title'=>'GALLIPOLI camiceria｜G-STAGE JAPAN株式会社', 'descriptio
 	<main>
 		<div class="l-column__wide">
 			<section class="l-section l-pageTop">
-				<h1><span class="u-LH07">GALLIPOLI camiceria</span><span class="u-rubyBottom u-bottom-10 u-positionRelative">ガリポリカミチェリア</span></h1>
+				<h1><span class="u-LH07">GALLIPOLI<br>camiceria</span><span class="u-rubyBottom u-bottom-10 u-positionRelative u-fs07">ガリポリカミチェリア</span></h1>
 				<div class="l-breadcrumb">
 					<a href="<?php echo $root; ?>">Home</a>
 					<div>GALLIPOLI camiceria</div>
 				</div>
 				<div class="c-wideBanner">
-					<figure><img sizes="<?php echo $media2; ?>" srcset="<?php echo $root; ?>images/page-mv-gallipoli-s.jpg <?php echo $sp; ?>w, <?php echo $root; ?>images/page-mv-gallipoli-l.jpg <?php echo $tb; ?>w" src="<?php echo $root; ?>imagse/page-mv-gallipoli-s.jpg" alt=""></figure>
+					<figure><img sizes="<?php echo $media2; ?>" srcset="<?php echo $root; ?>images/page-mv-gallipoli-s.jpg <?php echo $sp; ?>w, <?php echo $root; ?>images/page-mv-gallipoli-l.jpg <?php echo $tb; ?>w" src="<?php echo $root; ?>images/page-mv-gallipoli-s.jpg" alt=""></figure>
 				</div>
 				<div class="l-columnRow l-column__nallow c-passage__pattern2 u-flexHalf__PC">
 					<div>
@@ -23,7 +23,7 @@ $meta = ['title'=>'GALLIPOLI camiceria｜G-STAGE JAPAN株式会社', 'descriptio
 							<p>照りつける太陽や爽快な空、青く澄んだ海、<br>そして街を行き交う陽気な人々。</p>
 						</div>
 					</div>
-					<p>ブランド名にもなっている南イタリア、サレント半島の西に位置する海沿いの街ガリポリ。<br>照りつける太陽や爽快な空、青く澄んだ海、そして街を行き交う陽気な人々。<br>それらがGALLIPOLI camiceriaのイメージソースとなっています。</p>
+					<p>南イタリアの港町ガリポリの陽気な空気感をイメージソースにした、<br>＂ １枚でサマになる大人シャツ ＂をコンセプトにしたシャツブランド。<br>シャツは全て、高松の自社シャツ専業工場が縫製するジャパンメイド。</p>
 				</div>
 				<video src="<?php echo $root; ?>movies/gallipoli-image1.mp4" controls loop autoplay muted class="u-movie__wide"></video>
 			</section>
@@ -36,7 +36,7 @@ $meta = ['title'=>'GALLIPOLI camiceria｜G-STAGE JAPAN株式会社', 'descriptio
 							echo '<li class="c-fadeInImage">';
 							echo '<a href="'.$root.'images/gallipoli-coordination'.$i.'-l.jpg" class="cboxGroup is-fadeInImg is-'.$i.'s">';
 							echo '<figure>';
-							echo '<img sizes="'.$media2.'" srcset="'.$root.'images/gallipoli-coordination'.$i.'-s.jpg '.$sp.'w, '.$root.'images/gallipoli-coordination'.$i.'-l.jpg '.$tb.'w" src="'.$root.'images/gallipoli-coordination'.$i.'-s.jpg" alt="">';
+							echo '<img sizes="'.$media2.'" srcset="'.$root.'images/gallipoli-coordination'.$i.'-s.jpg '.$sp.'w, '.$root.'images/gallipoli-coordination'.$i.'-l.jpg '.$tb.'w" src="'.$root.'images/gallipoli-coordination'.$i.'-s.jpg" alt="coordination'.$i.'">';
 							echo '</figure>';
 							echo '</a>';
 							echo '</li>';

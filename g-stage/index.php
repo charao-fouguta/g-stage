@@ -1,5 +1,5 @@
 <?php
-$meta = ['title'=>'G-stage｜G-STAGE JAPAN株式会社', 'description'=>'伝統と現代性」「機能性とファッション性」を融合し“遊び心”のスパイスをきかせた大人のドレスポスタイルを提案。特に、こだわりの生地を使ったジャケットとカジュアルアウターをコアに上質で洗練された大人のドレスポスタイルをトータルに展開。'];
+$meta = ['title'=>'G-stage｜G-STAGE JAPAN株式会社', 'description'=>'＂ 気軽に着れる大人男の品ある遊び服 ＂ベーシックに軸足を置きながら、上質な素材と時代性ある遊び心をMIXさせた、大人に相応しい艶感と品あるデイリーカジュアルを展開。'];
 ?>
 <?php include('../component/function_path.php'); ?>
 <?php include_once('../header.php'); ?>
@@ -14,14 +14,14 @@ $meta = ['title'=>'G-stage｜G-STAGE JAPAN株式会社', 'description'=>'伝統�
 					<div>G-stage</div>
 				</div>
 				<div class="c-wideBanner">
-					<figure><img sizes="<?php echo $media2; ?>" srcset="<?php echo $root; ?>images/page-mv-g-stage-s.jpg <?php echo $sp; ?>w, <?php echo $root; ?>images/page-mv-g-stage-l.jpg <?php echo $tb; ?>w" src="<?php echo $root; ?>imagse/page-mv-g-stage-s.jpg" alt=""></figure>
+					<figure><img sizes="<?php echo $media2; ?>" srcset="<?php echo $root; ?>images/page-mv-g-stage-s.jpg <?php echo $sp; ?>w, <?php echo $root; ?>images/page-mv-g-stage-l.jpg <?php echo $tb; ?>w" src="<?php echo $root; ?>images/page-mv-g-stage-s.jpg" alt="G-stage"></figure>
 				</div>
 				<div class="l-columnRow l-column__nallow c-passage__pattern2 u-flexHalf__PC">
 					<div>
 						<h2>Traditional and Modern<br>Function and Fashion</h2>
 						<p>「伝統と現代性」「機能性とファッション性」</p>
 					</div>
-					<p>「伝統と現代性」「機能性とファッション性」を融合し“遊び心”のスパイスをきかせた大人のドレスポスタイルを提案。<br>特に、こだわりの生地を使ったジャケットとカジュアルアウターをコアに上質で洗練された大人のドレスポスタイルをトータルに展開。</p>
+					<p>＂ 気軽に着れる大人男の品ある遊び服 ＂<br>ベーシックに軸足を置きながら、上質な素材と時代性ある遊び心をMIXさせた、大人に相応しい<br>艶感と品あるデイリーカジュアルを展開。</p>
 				</div>
 				<video src="<?php echo $root; ?>movies/g-stage-image1.mp4" controls loop autoplay muted class="u-movie__wide"></video>
 			</section>
@@ -34,7 +34,7 @@ $meta = ['title'=>'G-stage｜G-STAGE JAPAN株式会社', 'description'=>'伝統�
 							echo '<li class="c-fadeInImage">';
 							echo '<a href="'.$root.'images/g-stage-coordination'.$i.'-l.jpg" class="cboxGroup is-fadeInImg is-'.$i.'s">';
 							echo '<figure>';
-							echo '<img sizes="'.$media2.'" srcset="'.$root.'images/g-stage-coordination'.$i.'-s.jpg '.$sp.'w, '.$root.'images/g-stage-coordination'.$i.'-l.jpg '.$tb.'w" src="'.$root.'images/g-stage-coordination'.$i.'-s.jpg" alt="">';
+							echo '<img sizes="'.$media2.'" srcset="'.$root.'images/g-stage-coordination'.$i.'-s.jpg '.$sp.'w, '.$root.'images/g-stage-coordination'.$i.'-l.jpg '.$tb.'w" src="'.$root.'images/g-stage-coordination'.$i.'-s.jpg" alt="coordination'.$i.'">';
 							echo '</figure>';
 							echo '</a>';
 							echo '</li>';

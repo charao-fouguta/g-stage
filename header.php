@@ -5,9 +5,11 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title><?php echo $meta['title']; ?></title>
 	<meta name="description" content="<?php echo $meta['description']; ?>">
-	<link rel="stylesheet" href="<?php echo $root; ?>style.css?ver=1.0.5">
+	<link rel="stylesheet" href="<?php echo $root; ?>style.css?ver=1.0.6">
 	<link rel="stylesheet" href="<?php echo $root; ?>css/custom.css">
-	<link rel="icon" type="image/x-icon" href="images/logo-black.png?20210330">
+	<link rel="icon" type="image/x-icon" href="<?php echo $root; ?>images/logo-black.png?20210330">
+	<script>document.createElement( "picture" );</script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/picturefill/3.0.2/picturefill.min.js" async></script>
 </head>
 <body>
 	<div class="l-wrapper">
