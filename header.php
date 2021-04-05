@@ -7,6 +7,7 @@
 	<meta name="description" content="<?php echo $meta['description']; ?>">
 	<link rel="stylesheet" href="<?php echo $root; ?>style.css?ver=1.0.5">
 	<link rel="stylesheet" href="<?php echo $root; ?>css/custom.css">
+	<link rel="icon" type="image/x-icon" href="images/logo-black.png?20210330">
 </head>
 <body>
 	<div class="l-wrapper">
