@@ -106,7 +106,7 @@ $meta = ['title'=>'G-STAGE JAPAN株式会社　公式サイト', 'description'=>
 						</a>
 					</li>
 					<li>
-						<a href="<?php echo $root; ?>news/#n4">
+						<a href="<?php echo $root; ?>news/#n3">
 							<figure><img src="<?php echo $root; ?>images/20210325.jpg" alt="2021年3月25日"></figure>
 							<div class="u-paddingWithoutTop18">
 								<time datetime="2021-03-25">2021/03/25</time>
