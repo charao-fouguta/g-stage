@@ -1,8 +1,6 @@
 <?php
 $meta = ['title'=>'G-STAGE JAPAN株式会社　公式サイト', 'description'=>'ファッションで人生を豊かに。大人が価値を感じる、品と遊び心が共存するファッションをアクセスしやすい価格で提供し着る人の人生をより豊かにする。ファッションの力を信じ、唯一無二の価値を創造し続けることが我々の使命です。'];
 ?>
-<?php include_once('component/function_path.php'); ?>
-<?php include_once('component/function_media.php'); ?>
 <?php include_once('header.php'); ?>
 <div class="l-main">
 	<main>
