@@ -1,6 +1,5 @@
 <?php include('../component/function_path.php'); ?>
 <?php include_once('../header.php'); ?>
-
 <?php session_start();
 
 require_once 'SendEmail.php';
@@ -29,7 +28,7 @@ if (isset($_POST) && count($_POST) > 0) {
 			<section class="l-section l-pageTop">
 				<h1><span>Contact<span class="u-rubyBottom u-pagetop">お問い合わせ_確認</span></span></h1>
 				<div class="l-breadcrumb">
-					<a href="<?php echo $root; ?>">Home</a>
+					<a href="/g-stage/">Home</a>
 					<div>Contact</div>
 				</div>
 				<div class="p-form__guide">

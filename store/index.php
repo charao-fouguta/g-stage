@@ -1,9 +1,7 @@
 <?php
 $meta = ['title'=>'Store｜G-STAGE JAPAN株式会社', 'description'=>'大阪梅田、横浜、渋谷、京都の4実店舗に加えオンラインストア展開！'];
 ?>
-<?php include('../component/function_path.php'); ?>
 <?php include_once('../header.php'); ?>
-<?php include_once('../component/function_media.php'); ?>
 <div class="l-main u-paddingSideTB50">
 	<main>
 		<div class="l-column__wide">
@@ -11,11 +9,11 @@ $meta = ['title'=>'Store｜G-STAGE JAPAN株式会社', 'description'=>'大阪梅
 				<section class="l-section l-pageTop">
 				<h1><span>Store<span class="u-rubyBottom u-pagetop">店舗一覧</span></span></h1>
 					<div class="l-breadcrumb">
-						<a href="<?php echo $root; ?>">Home</a>
+						<a href="/g-stage/">Home</a>
 						<div>Store</div>
 					</div>
 					<div class="c-wideBanner">
-						<figure><img sizes="<?php echo $media2; ?>" srcset="<?php echo $root; ?>images/page-mv-store-s.jpg <?php echo $sp; ?>w, <?php echo $root; ?>images/page-mv-store-l.jpg <?php echo $tb; ?>w" src="<?php echo $root; ?>images/page-mv-store-s.jpg" alt=""></figure>
+						<figure><img sizes="(max-width:375px), (min-width:768px)" srcset="/g-stage/images/page-mv-store-s.jpg <?php echo $sp; ?>w, /g-stage/images/page-mv-store-l.jpg <?php echo $tb; ?>w" src="/g-stage/images/page-mv-store-s.jpg" alt=""></figure>
 					</div>
 				</section>
 				<div class="l-column__nallow u-paddingSideSP18">
@@ -117,7 +115,7 @@ $meta = ['title'=>'Store｜G-STAGE JAPAN株式会社', 'description'=>'大阪梅
 					</div>
 				</div>
 				<div class="c-wideBanner">
-					<figure><img sizes="<?php echo $media2; ?>" srcset="<?php echo $root; ?>images/page-mv-store2-s.jpg <?php echo $sp; ?>w, <?php echo $root; ?>images/page-mv-store2-l.jpg <?php echo $tb; ?>w" src="<?php echo $root; ?>images/page-mv-store2-s.jpg" alt=""></figure>
+					<figure><img sizes="(max-width:375px), (min-width:768px)" srcset="/g-stage/images/page-mv-store2-s.jpg <?php echo $sp; ?>w, /g-stage/images/page-mv-store2-l.jpg <?php echo $tb; ?>w" src="/g-stage/images/page-mv-store2-s.jpg" alt=""></figure>
 				</div>
 			</article>
 		</div>
