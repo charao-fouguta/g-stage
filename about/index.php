@@ -15,7 +15,7 @@ $meta = ['title'=>'About｜G-STAGE JAPAN株式会社', 'description'=>'メンズ
 				</section>
 				<section>
 					<div class="c-wideBanner">
-						<figure><img sizes="(max-width:375px), (min-width:768px)" srcset="/g-stage/images/page-mv-about-s.jpg <?php echo $sp; ?>w, /g-stage/images/page-mv-about-l.jpg <?php echo $tb; ?>w" src="/g-stage/images/page-mv-about-s.jpg" alt=""></figure>
+						<figure><img sizes="(max-width:375px), (min-width:768px)" srcset="/g-stage/images/page-mv-about-s.jpg 375w, /g-stage/images/page-mv-about-l.jpg 768w" src="/g-stage/images/page-mv-about-s.jpg" alt=""></figure>
 					</div>
 					<div class="l-columnRow l-column__nallow c-passage__pattern2 u-flex25-75__PC">
 						<div class="u-flex22-78__PC">
@@ -95,7 +95,7 @@ $meta = ['title'=>'About｜G-STAGE JAPAN株式会社', 'description'=>'メンズ
 				</section>
 				<section>
 					<div class="c-wideBanner u-verticalM100">
-						<figure><img sizes="(max-width:375px), (min-width:768px)" srcset="/g-stage/images/page-mv-about2-s.jpg <?php echo $sp; ?>w, /g-stage/images/page-mv-about2-l.jpg <?php echo $tb; ?>w" src="/g-stage/images/page-mv-about2-s.jpg" alt=""></figure>
+						<figure><img sizes="(max-width:375px), (min-width:768px)" srcset="/g-stage/images/page-mv-about2-s.jpg 375w, /g-stage/images/page-mv-about2-l.jpg 768w" src="/g-stage/images/page-mv-about2-s.jpg" alt=""></figure>
 					</div>
 					<div class="l-columnRow l-column__nallow c-passage__pattern2 u-flexHalf__PC">
 						<div>
@@ -105,7 +105,7 @@ $meta = ['title'=>'About｜G-STAGE JAPAN株式会社', 'description'=>'メンズ
 						</div>
 						<div class="u-square">
 							<div>
-								<figure><img sizes="(max-width:375px), (min-width:768px)" srcset="/g-stage/images/takamatsu-Shirt-sewing-factory-s.jpg <?php echo $sp; ?>w, /g-stage/images/takamatsu-Shirt-sewing-factory-l.jpg <?php echo $tb; ?>w" src="/g-stage/images/takamatsu-Shirt-sewing-factory-s.jpg" alt="高松シャツ工房"></figure>
+								<figure><img sizes="(max-width:375px), (min-width:768px)" srcset="/g-stage/images/takamatsu-Shirt-sewing-factory-s.jpg 375w, /g-stage/images/takamatsu-Shirt-sewing-factory-l.jpg 768w" src="/g-stage/images/takamatsu-Shirt-sewing-factory-s.jpg" alt="高松シャツ工房"></figure>
 							</div>
 						</div>
 					</div>

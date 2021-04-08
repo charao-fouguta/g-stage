@@ -12,7 +12,7 @@ $meta = ['title'=>'G-stage｜G-STAGE JAPAN株式会社', 'description'=>'＂ 気
 					<div>G-stage</div>
 				</div>
 				<div class="c-wideBanner">
-					<figure><img sizes="(max-width:375px), (min-width:768px)" srcset="/g-stage/images/page-mv-g-stage-s.jpg <?php echo $sp; ?>w, /g-stage/images/page-mv-g-stage-l.jpg <?php echo $tb; ?>w" src="/g-stage/images/page-mv-g-stage-s.jpg" alt="G-stage"></figure>
+					<figure><img sizes="(max-width:375px), (min-width:768px)" srcset="/g-stage/images/page-mv-g-stage-s.jpg 375w, /g-stage/images/page-mv-g-stage-l.jpg 768w" src="/g-stage/images/page-mv-g-stage-s.jpg" alt="G-stage"></figure>
 				</div>
 				<div class="l-columnRow l-column__nallow c-passage__pattern2 u-flexHalf__PC">
 					<div>

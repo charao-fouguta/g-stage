@@ -12,7 +12,7 @@ $meta = ['title'=>'GALLIPOLI camiceria｜G-STAGE JAPAN株式会社', 'descriptio
 					<div>GALLIPOLI camiceria</div>
 				</div>
 				<div class="c-wideBanner">
-					<figure><img sizes="(max-width:375px), (min-width:768px)" srcset="/g-stage/images/page-mv-gallipoli-s.jpg <?php echo $sp; ?>w, /g-stage/images/page-mv-gallipoli-l.jpg <?php echo $tb; ?>w" src="/g-stage/images/page-mv-gallipoli-s.jpg" alt=""></figure>
+					<figure><img sizes="(max-width:375px), (min-width:768px)" srcset="/g-stage/images/page-mv-gallipoli-s.jpg 375w, /g-stage/images/page-mv-gallipoli-l.jpg 768w" src="/g-stage/images/page-mv-gallipoli-s.jpg" alt=""></figure>
 				</div>
 				<div class="l-columnRow l-column__nallow c-passage__pattern2 u-flexHalf__PC">
 					<div>

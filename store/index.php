@@ -13,7 +13,7 @@ $meta = ['title'=>'Store｜G-STAGE JAPAN株式会社', 'description'=>'大阪梅
 						<div>Store</div>
 					</div>
 					<div class="c-wideBanner">
-						<figure><img sizes="(max-width:375px), (min-width:768px)" srcset="/g-stage/images/page-mv-store-s.jpg <?php echo $sp; ?>w, /g-stage/images/page-mv-store-l.jpg <?php echo $tb; ?>w" src="/g-stage/images/page-mv-store-s.jpg" alt=""></figure>
+						<figure><img sizes="(max-width:375px), (min-width:768px)" srcset="/g-stage/images/page-mv-store-s.jpg 375w, /g-stage/images/page-mv-store-l.jpg 768w" src="/g-stage/images/page-mv-store-s.jpg" alt=""></figure>
 					</div>
 				</section>
 				<div class="l-column__nallow u-paddingSideSP18">
@@ -115,7 +115,7 @@ $meta = ['title'=>'Store｜G-STAGE JAPAN株式会社', 'description'=>'大阪梅
 					</div>
 				</div>
 				<div class="c-wideBanner">
-					<figure><img sizes="(max-width:375px), (min-width:768px)" srcset="/g-stage/images/page-mv-store2-s.jpg <?php echo $sp; ?>w, /g-stage/images/page-mv-store2-l.jpg <?php echo $tb; ?>w" src="/g-stage/images/page-mv-store2-s.jpg" alt=""></figure>
+					<figure><img sizes="(max-width:375px), (min-width:768px)" srcset="/g-stage/images/page-mv-store2-s.jpg 375w, /g-stage/images/page-mv-store2-l.jpg 768w" src="/g-stage/images/page-mv-store2-s.jpg" alt=""></figure>
 				</div>
 			</article>
 		</div>
