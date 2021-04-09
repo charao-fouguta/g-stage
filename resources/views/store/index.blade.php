@@ -1,4 +1,6 @@
-<!-- $meta = ['title'=>'Store｜G-STAGE JAPAN株式会社', 'description'=>'大阪梅田、横浜、渋谷、京都の4実店舗に加えオンラインストア展開！']; -->
+@section('title', 'Store｜G-STAGE JAPAN株式会社')
+@section('description', '大阪梅田、横浜、渋谷、京都の4実店舗に加えオンラインストア展開！')
+
 @include('layouts.header')
 <div class="l-main u-paddingSideTB50">
 	<main>

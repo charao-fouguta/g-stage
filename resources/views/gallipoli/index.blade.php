@@ -1,4 +1,6 @@
-<!--$meta = ['title'=>'GALLIPOLI camiceria｜G-STAGE JAPAN株式会社', 'description'=>'南イタリアの港町ガリポリの陽気な空気感をイメージソースにした、＂ １枚でサマになる大人シャツ ＂をコンセプトにしたシャツブランド。シャツは全て、高松の自社シャツ専業工場が縫製するジャパンメイド。'];-->
+@section('title', 'GALLIPOLI camiceria｜G-STAGE JAPAN株式会社')
+@section('description', '南イタリアの港町ガリポリの陽気な空気感をイメージソースにした、＂ １枚でサマになる大人シャツ ＂をコンセプトにしたシャツブランド。シャツは全て、高松の自社シャツ専業工場が縫製するジャパンメイド。')
+
 @include('layouts.header')
 <div class="l-main u-paddingSideTB50">
 	<main>

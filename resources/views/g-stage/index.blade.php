@@ -1,4 +1,5 @@
-<!--$meta = ['title'=>'G-stage｜G-STAGE JAPAN株式会社', 'description'=>'＂ 気軽に着れる大人男の品ある遊び服 ＂ベーシックに軸足を置きながら、上質な素材と時代性ある遊び心をMIXさせた、大人に相応しい艶感と品あるデイリーカジュアルを展開。'];-->
+@section('title', 'G-stage｜G-STAGE JAPAN株式会社')
+@section('description', '＂ 気軽に着れる大人男の品ある遊び服 ＂ベーシックに軸足を置きながら、上質な素材と時代性ある遊び心をMIXさせた、大人に相応しい艶感と品あるデイリーカジュアルを展開。')
 
 @include('layouts.header')
 <div class="l-main u-paddingSideTB50">

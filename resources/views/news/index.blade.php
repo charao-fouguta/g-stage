@@ -1,4 +1,6 @@
-<!--$meta = ['title'=>'News｜G-STAGE JAPAN株式会社', 'description'=>'G-stage、GALLIPOLI camiceriaの新着、セールス情報、限定情報、メディア情報をいち早くお届けします！'];-->
+@section('title', 'News｜G-STAGE JAPAN株式会社')
+@section('description', 'G-stage、GALLIPOLI camiceriaの新着、セールス情報、限定情報、メディア情報をいち早くお届けします！')
+
 @include('layouts.header')
 <div class="l-main u-paddingSideTB50">
 	<main>
