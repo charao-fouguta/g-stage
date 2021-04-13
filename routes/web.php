@@ -25,3 +25,5 @@ Route::get('/g-stage', [BrandGstageController::class, 'index'])->name('g-stage')
 Route::get('/gallipoli', [BrandGallipoliController::class, 'index'])->name('gallipoli');
 Route::get('/news', [NewsController::class, 'index'])->name('news');
 Route::get('/store', [StoreController::class, 'index'])->name('store');
+
+require __DIR__.'/admin.php';
