@@ -20,7 +20,7 @@ entry: "./src/index.js",
 // ファイルの出力設定
 output: {
 	//  出力ファイルのディレクトリ名
-	path: `${__dirname}`,
+	path: `${__dirname}/public`,
 	// 出力ファイル名
 	filename: "main.js",
 },
@@ -100,7 +100,7 @@ plugins: [
 	// CSSファイルを外だしにするプラグイン
 	new MiniCssExtractPlugin({
 	// ファイル名を設定します
-	filename: "style.css",
+	filename: "/css/style.css",
 	}),
 	new webpack.ProvidePlugin({
 		$: 'jquery'
