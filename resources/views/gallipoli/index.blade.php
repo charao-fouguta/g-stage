@@ -23,7 +23,7 @@
 					</div>
 					<p>南イタリアの港町ガリポリの陽気な空気感をイメージソースにした、<br>＂ １枚でサマになる大人シャツ ＂をコンセプトにしたシャツブランド。<br>シャツは全て、高松の自社シャツ専業工場が縫製するジャパンメイド。</p>
 				</div>
-				<video src="/g-stage/movies/gallipoli-image1.mp4" controls loop autoplay muted class="u-movie__wide"></video>
+				<video src="{{ asset('movies/gallipoli-image1.mp4') }}" controls loop autoplay muted class="u-movie__wide"></video>
 			</section>
 			<div class="l-column__nallow u-paddingSideSP18">
 				<section class="l-section">

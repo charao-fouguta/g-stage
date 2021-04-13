@@ -21,7 +21,7 @@
 					</div>
 					<p>＂ 気軽に着れる大人男の品ある遊び服 ＂<br>ベーシックに軸足を置きながら、上質な素材と時代性ある遊び心をMIXさせた、大人に相応しい<br>艶感と品あるデイリーカジュアルを展開。</p>
 				</div>
-				<video src="/g-stage/movies/g-stage-image1.mp4" controls loop autoplay muted class="u-movie__wide"></video>
+				<video src="{{ asset('movies/g-stage-image1.mp4') }}" controls loop autoplay muted class="u-movie__wide"></video>
 			</section>
 			<div class="l-column__nallow u-paddingSideSP18">
 				<section class="l-section">
