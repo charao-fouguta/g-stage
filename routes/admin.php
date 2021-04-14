@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\Admin\Auth\AuthenticatedSessionController;
+use App\Http\Controllers\Admin\TopController;
 use Illuminate\Support\Facades\Route;
 
 Route::prefix('admin')->name('admin.')->group(function() {
@@ -14,5 +15,7 @@ Route::prefix('admin')->name('admin.')->group(function() {
     Route::middleware('auth:admin')->group(function() {
         Route::post('/logout', [AuthenticatedSessionController::class, 'destroy'])
         ->name('logout');
+
+        Route::get('/', [TopController::class, 'index'])->name('top');
     });
 });
