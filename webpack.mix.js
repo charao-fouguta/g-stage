@@ -11,8 +11,16 @@ const mix = require('laravel-mix');
  |
  */
 
-mix
+mix.js('resources/js/app.js', 'public/js')
+    .js('resources/js/admin/app.js', 'public/js/admin')
+    .js('resources/js/admin/sb-admin-2.js', 'public/js/admin')
+    .sass('resources/scss/admin/app.scss', 'public/css/admin')
+
     //.js('resources/js/app.js', 'public/js')
     //.postCss('resources/css/app.css', 'public/css', [
         //
     //]);
+
+if (mix.inProduction()) {
+    mix.version();
+}
