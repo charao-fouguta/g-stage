@@ -20,4 +20,37 @@
         </div>
     </div>
 </div>
+
+<style>
+.g-stage-link, .GALLIPOLI-link, .news-link{
+    color : inherit;
+}
+.g-stage-link:hover {
+    text-decoration: none;
+    color: inherit;
+}
+.GALLIPOLI-link:hover {
+    text-decoration: none;
+    color: inherit;
+}
+.news-link:hover {
+    text-decoration: none;
+    color: inherit;
+}
+
+.g-stage-block, .GALLIPOLI-block, .news-block {
+    background-color: #f7f7f7;
+    height: 40px;
+}
+
+.g-stage-block:hover {
+    background-color: #0a0837;
+}
+.GALLIPOLI-block:hover {
+    background-color: #0a0837;
+}
+.news-block:hover {
+    background-color: #0a0837;
+}
+</style>
 @endsection
