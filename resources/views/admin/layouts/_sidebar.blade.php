@@ -5,7 +5,7 @@
     {{-- <div class="sidebar-brand-icon rotate-n-15">
       <i class="fas fa-laugh-wink"></i>
     </div> --}}
-    <div class="sidebar-brand-text mx-3">{{ config('app.name') }}</div>
+    <div class="sidebar-brand-text mx-3"><img src="{{ asset('images/G-STAGE-rogo.png') }}" style="height: 40px;"></div>
   </a>
 
   <hr class="sidebar-divider my-0">

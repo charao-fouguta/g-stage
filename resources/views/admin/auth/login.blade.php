@@ -8,7 +8,9 @@
         </div>
         <div class="col-md-8">
             <div class="card">
-                <div class="card-header" style="background-color: #0a0837; height: 40px;"></div>
+                <div class="card-header text-center" style="background-color: #0a0837; height: 60px;">
+                    <img src="{{ asset('images/G-STAGE-rogo.png') }}" style="height: 40px;">
+                </div>
 
                 <div class="card-body">
                     <form method="POST" action="{{ route('admin.login') }}">
