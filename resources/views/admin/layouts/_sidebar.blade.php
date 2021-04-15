@@ -1,5 +1,5 @@
 <!-- Sidebar -->
-<ul class="navbar-nav bg-gradient-primary sidebar sidebar-dark accordion" id="accordionSidebar">
+<ul class="navbar-nav sidebar sidebar-dark accordion" id="accordionSidebar" style="background-color: #0a0837">
 
   <a class="sidebar-brand d-flex align-items-center justify-content-center" href="{{ route('admin.top') }}">
     {{-- <div class="sidebar-brand-icon rotate-n-15">
@@ -12,7 +12,6 @@
 
   <li class="nav-item">
     <a class="nav-link text-center" href="{{ route('admin.top') }}">
-      <i class="fas fa-fw fa-level-up-alt"></i>
       <span>TOP</span></a>
   </li>
 
@@ -20,7 +19,7 @@
   <li class="nav-item">
     <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseTwo"
       aria-expanded="true" aria-controls="collapseTwo">
-      <i class="fas fa-fw fa-list-alt"></i>
+      <i class="fas fa-fw far fa-tshirt"></i>
       <span>ブランド管理</span>
     </a>
     <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
