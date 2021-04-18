@@ -32,8 +32,8 @@
   </li>
 
   <hr class="sidebar-divider">
-  <li class="nav-item">
-    <a class="nav-link">
+  <li class="nav-item @if(stripos(Route::currentRouteName(), 'news') !== false) active @endif">
+    <a class="nav-link" href="{{ route('admin.news.index') }}">
       <i class="fas fa-fw fa-newspaper"></i>
       <span>News管理</span>
     </a>
