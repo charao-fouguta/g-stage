@@ -7,6 +7,7 @@ use App\Http\Controllers\BrandGstageController;
 use App\Http\Controllers\BrandGallipoliController;
 use App\Http\Controllers\NewsController;
 use App\Http\Controllers\StoreController;
+use App\Http\Controllers\ContactController;
 
 /*
 |--------------------------------------------------------------------------
@@ -25,5 +26,8 @@ Route::get('/g-stage', [BrandGstageController::class, 'index'])->name('g-stage')
 Route::get('/gallipoli', [BrandGallipoliController::class, 'index'])->name('gallipoli');
 Route::get('/news', [NewsController::class, 'index'])->name('news');
 Route::get('/store', [StoreController::class, 'index'])->name('store');
+Route::get('/contact', [ContactController::class, 'index'])->name('contact');
+Route::post('/contact/confirm', [ContactController::class, 'confirm'])->name('contact.confirm');
+Route::post('/contact/complete', [ContactController::class, 'complete'])->name('contact.complete');
 
 require __DIR__.'/admin.php';

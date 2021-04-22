@@ -28,7 +28,7 @@
 								<li><a href="{{ route('news') }}">News<span>お知らせ</span></a></li>
 								<li><a href="{{ route('store') }}">Store<span>店舗一覧</span></a></li>
 								<li><a href="{{ route('about') }}">About<span>私たちについて</span></a></li>
-								<li><a href="mailto:info@g-stage1967.com">Contact<span>お問い合わせ</span></a></li>
+								<li><a href="{{ route('contact') }}">Contact<span>お問い合わせ</span></a></li>
 							</ul>
 						</nav>
 						<div class="l-header__outerLinks">

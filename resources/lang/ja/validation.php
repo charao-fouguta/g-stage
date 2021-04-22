@@ -153,6 +153,12 @@ return [
         'visible' => '掲載可否',
 
         'video' => '動画',
+
+        'name' => 'お名前',
+        'phone_number' => '電話番号',
+        'email' => 'メールアドレス',
+        'content' => 'お問い合わせ内容',
+        'check' => '個人情報の取り扱い',
     ],
 
 ];
