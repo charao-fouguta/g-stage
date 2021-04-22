@@ -129,8 +129,9 @@ class BrandCoordinationController extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function destroy($id)
+    public function destroy(BrandCoordination $coordination)
     {
-        //
+        $coordination->delete();
+        return redirect()->route('admin.coordination.index')->with('success', "コーディネーション: ID{$coordination->id}を削除しました");
     }
 }
