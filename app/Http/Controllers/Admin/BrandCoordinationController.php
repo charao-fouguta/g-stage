@@ -18,7 +18,7 @@ class BrandCoordinationController extends Controller
      */
     public function index()
     {
-        $coordinations = BrandCoordination::all();
+        $coordinations = BrandCoordination::orderby('id', 'desc')->get();
         return view('admin.coordination.index', compact('coordinations'));
     }
 
