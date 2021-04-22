@@ -1,21 +1,19 @@
 <template>
     <div>
-        <input type="file" name="image"
+        <input type="file" name="video" accept="video/mp4"
             @change="changeFile"
         >
 
-        <img :src="oldImage" style="max-height: 150px; max-width: 180px;" class="mt-2">
-        <img v-if="drop" :src="image" style="max-height: 150px; max-width: 180px;" class="mt-2">
+        <video :src="video" controls loop autoplay muted class="mt-2" style="max-height: 300px; max-width: 300px;"></video>
     </div>
 </template>
 
 <script>
 export default {
-    props: ['oldImage'],
+    props: ['oldVideo'],
     data() {
         return {
-            drop: false,
-            image: '',
+            video: '',
         }
     },
     methods: {
@@ -27,11 +25,14 @@ export default {
             reader.readAsDataURL(file); 
 
             reader.onload = function () {
-                this.image = reader.result; 
+                this.video = reader.result; 
             }.bind(this);
-            this.oldImage = '';
-            this.drop = true;
         },
+    },
+    mounted() {
+        if(this.oldVideo) {
+            this.video = this.oldVideo;
+        }
     }
 }
 </script>

@@ -30,7 +30,7 @@
                 <label for='image' class="col-sm-2 col-form-label">メイン画像<sup class="text-danger">※</sup></label>
                 <div class="col-sm-3">
                     <!-- vue component -->
-                    <news-drop-preview :old-image="{{ json_encode($news->main_img) }}"></news-drop-preview>
+                    <image-preview :old-image="{{ json_encode($news->main_img) }}"></image-preview>
                 </div>
                 @error('image')
                     <strong class="text-danger">{{ $message }}</strong>

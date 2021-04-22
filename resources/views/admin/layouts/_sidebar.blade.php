@@ -25,8 +25,9 @@
     <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
       <div class="bg-white py-2 collapse-inner rounded">
 
-        <a class="collapse-item">G-stage</a>
-        <a class="collapse-item">GALLIPOLI</a>
+        <a href="{{ route('admin.gstage.create') }}" class="collapse-item">G-stage</a>
+        <a href="{{ route('admin.gallipoli.create') }}" class="collapse-item">GALLIPOLI</a>
+        <a href="{{ route('admin.coordination.index') }}" class="collapse-item">コーディネーション</a>
       </div>
     </div>
   </li>

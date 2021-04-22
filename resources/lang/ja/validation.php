@@ -151,6 +151,8 @@ return [
         'image' => '画像',
         'title' => 'タイトル',
         'visible' => '掲載可否',
+
+        'video' => '動画',
     ],
 
 ];
