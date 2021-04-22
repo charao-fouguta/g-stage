@@ -4,7 +4,7 @@
 <div class="row">
     <div class="col">
         <div class="d-flex justify-content-between align-items-center">
-            <h1 class="h3 mb-2 text-gray-800">コーディネーション一覧</h1>
+            <h1 class="h3 mb-2 text-gray-800">コーディネーション編集</h1>
             <form action="{{ route('admin.coordination.destroy', ['coordination' => $coordination]) }}" method="post" onsubmit="return confirm('このコーディネーションを削除します。よろしいですか？');">
                 @csrf
                 @method('DELETE')
