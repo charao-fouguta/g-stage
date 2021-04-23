@@ -19,89 +19,29 @@
 		<div class="l-column__nallow">
 			<section class="l-section">
 				<ul class="c-articleList">
+					@foreach($news as $new)
 					<li id="n4">
 						<div>
 							<div class="c-articleList__imgWrap">
-								<figure><img src="{{ asset('/images/renewal-open.jpg') }}" alt="リニューアルオープン"></figure>
-								<time datetime="2021-04-05">2021.04.05</time>
+								<figure><img src="{{ $new->main_img }}" alt="リニューアルオープン"></figure>
+								<time datetime="2021-04-05">{{ $new->posted_date }}</time>
 							</div>
 							<div class="c-articleList__meta u-paddingSide18">
-								<h3>G-STAGE・JAPAN株式会社のコーポレートサイトをリニューアルいたしました</h3>
-								<?php
-								/*
-								<p class="c-articleList__message"></p>
+								<h3>{{ $new->title }}</h3>
+								@if($new->link)
+									<a href="{{ $new->link }}" target="_blank" class="u-headingLink">掲載商品の詳細はこちら</a>
+								@endif
+								@if($new->content)
+								<p class="c-articleList__message">{{ $new->content }}</p>
 								<div class="c-articleList__button">
 									<div class="c-articleList__viewDetail">View Detail<span class="c-viewDetail__arrow">↓</span></div>
 									<div class="c-articleList__closeDetail">Close Detail<span class="c-viewDetail__arrow">↑</span></div>
 								</div>
-								*/
-								?>
+								@endif
 							</div>
 						</div>
 					</li>
-					<li id="n3">
-						<div>
-							<div class="c-articleList__imgWrap">
-								<figure><img src="{{ asset('/images/20210325.jpg') }}" alt="2021年3月25日"></figure>
-								<time datetime="2021-03-25">2021.03.25</time>
-							</div>
-							<div class="c-articleList__meta u-paddingSide18">
-								<h3>メディア情報◆雑誌掲載「Safari5月号」に掲載されました</h3>
-								<p class="c-articleList__message is-viewOpen"><a href="https://www.g-stage-select.jp/SHOP/1114498/list.html" target="_blank" class="u-headingLink">掲載商品の詳細はこちら</a></p>
-								<?php
-								/*
-								<p class="c-articleList__message"></p>
-								<div class="c-articleList__button">
-									<div class="c-articleList__viewDetail">View Detail<span class="c-viewDetail__arrow">↓</span></div>
-									<div class="c-articleList__closeDetail">Close Detail<span class="c-viewDetail__arrow">↑</span></div>
-								</div>
-								*/
-								?>
-							</div>
-						</div>
-					</li>
-					<li id="n2">
-						<div>
-							<div class="c-articleList__imgWrap">
-								<figure><img src="{{ asset('/images/20210305.jpg') }}" alt="2021年3月5日"></figure>
-								<time datetime="2021-03-05">2021.03.05</time>
-							</div>
-							<div class="c-articleList__meta u-paddingSide18">
-								<h3>メディア情報◆雑誌掲載「GOLFTODAY4月号」に掲載されました</h3>
-								<p class="c-articleList__message is-viewOpen"><a href="https://www.g-stage-select.jp/SHOP/1132001/list.html" target="_blank" class="u-headingLink">掲載商品の詳細はこちら</a></p>
-								<?php
-								/*
-								<p class="c-articleList__message"></p>
-								<div class="c-articleList__button">
-									<div class="c-articleList__viewDetail">View Detail<span class="c-viewDetail__arrow">↓</span></div>
-									<div class="c-articleList__closeDetail">Close Detail<span class="c-viewDetail__arrow">↑</span></div>
-								</div>
-								*/
-								?>
-							</div>
-						</div>
-					</li>
-					<li id="n1">
-						<div>
-							<div class="c-articleList__imgWrap">
-								<figure><img src="{{ asset('/images/20210125.jpg') }}" alt="2021年1月25日"></figure>
-								<time datetime="2021-01-25">2021.01.25</time>
-							</div>
-							<div class="c-articleList__meta u-paddingSide18">
-								<h3>メディア情報◆雑誌掲載「Safari3月号」に掲載されました</h3>
-								<p class="c-articleList__message is-viewOpen"><a href="https://www.g-stage-select.jp/SHOP/600674.html" target="_blank" class="u-headingLink">掲載商品の詳細はこちら</a></p>
-								<?php
-								/*
-								<p class="c-articleList__message"></p>
-								<div class="c-articleList__button">
-									<div class="c-articleList__viewDetail">View Detail<span class="c-viewDetail__arrow">↓</span></div>
-									<div class="c-articleList__closeDetail">Close Detail<span class="c-viewDetail__arrow">↑</span></div>
-								</div>
-								*/
-								?>
-							</div>
-						</div>
-					</li>
+					@endforeach
 					<?php
 					/*
 					<li id="n4">
@@ -123,18 +63,14 @@
 					*/
 					?>
 				</ul>
-				<?php
-				/*
+				<!-- ページネーション -->
 				<div class="c-pageNavi">
-					<span class="c-currentPage">1</span>
-					<a href="">2</a>
-					<a href="">3</a>
-					<a href="">4</a>
-					<a href="">5</a>
-					<a href="">→</a>
+					@if ($news->currentPage() > 1)<a href="{{ $news->previousPageUrl() }}">←</a>@endif
+					@for ($i = 1; $i <= $news->lastPage(); $i++)
+						<a href="{{ $news->url($i) }}" class="{{ $news->currentPage() == $i ? 'c-currentPage' : '' }}">{{ $i }}</a>
+					@endfor
+					@if ($news->currentPage() < $news->lastPage())<a href="{{ $news->nextPageUrl() }}">→</a>@endif
 				</div>
-				*/
-				?>
 			</section>
 		</div>
 	</main>
