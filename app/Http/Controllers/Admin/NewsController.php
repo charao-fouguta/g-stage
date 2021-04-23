@@ -47,6 +47,7 @@ class NewsController extends Controller
             'title' => 'required|string|max:255',
             'content' => 'nullable|string',
             'visible' => 'required|boolean',
+            'link' => 'nullable|string|max:500',
         ]);
 
         if($request->hasFile('image')) {
@@ -96,6 +97,7 @@ class NewsController extends Controller
             'title' => 'required|string|max:255',
             'content' => 'nullable|string',
             'visible' => 'required|boolean',
+            'link' => 'nullable|string|max:500',
         ]);
 
         if($request->hasFile('image')) {

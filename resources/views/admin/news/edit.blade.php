@@ -42,9 +42,18 @@
             </div>
             <div class="form-group row mt-4">
                 <label for="title" class="col-sm-2 col-form-lable">タイトル<sup class="text-danger">※</sup></label>
-                <div class="col-5">
+                <div class="col-6">
                     <input type="text" class="form-control form-control-sm-2" name="title" id="title" value="{{ $news->title }}">
                 </div>
+            </div>
+            <div class="form-group row mt-4">
+                <label for="content" class="col-sm-2 col-form-lable">掲載商品の外部リンク</label>
+                <div class="col-6">
+                    <input type="text" class="form-control form-control-sm-2" name="link" id="link" value="{{ $news->link }}">
+                </div>
+                @error('link')
+                    <strong class="text-danger">{{ $message }}</strong>
+                @enderror
             </div>
             <div class="form-group row mt-4">
                 <label for="content" class="col-sm-2 col-form-lable">内容</label>

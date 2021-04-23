@@ -20,6 +20,7 @@ class CreateNewsTable extends Migration
             $table->string('image');
             $table->boolean('visible');
             $table->date('posted_date');
+            $table->string('link')->nullable();
             $table->timestamps();
         });
     }
