@@ -21,18 +21,33 @@
 					</div>
 					<p>＂ 気軽に着れる大人男の品ある遊び服 ＂<br>ベーシックに軸足を置きながら、上質な素材と時代性ある遊び心をMIXさせた、大人に相応しい<br>艶感と品あるデイリーカジュアルを展開。</p>
 				</div>
-				<video src="{{ asset('movies/g-stage-image1.mp4') }}" controls loop autoplay muted class="u-movie__wide"></video>
+				<video src="{{ $gstage->main_video ?? null }}" controls loop autoplay muted class="u-movie__wide"></video>
 			</section>
 			<div class="l-column__nallow u-paddingSideSP18">
 				<section class="l-section">
 					<h2><span>Coordination<span class="u-rubyBottom">コーディネーション</span></span></h2>
 					<ul class="c-tile c-halfSP">
+						<!-- 変更後 -->
+						@if($gstage)
+						@foreach($gstage->coordination as $coordinate)
+							<li class="c-fadeInImage">
+								<a href="{{ $coordinate->coordination_img }}" class="cboxGroup is-fadeInImg">
+									<figure>
+										<img sizes="(max-width:375px), (min-width:768px)" srcset="{{ $coordinate->coordination_img }} 375w, 
+										{{ $coordinate->coordination_img }} 768w" src="{{ $coordinate->coordination_img }}" alt="coordination">
+									</figure>
+								</a>
+							</li>
+						@endforeach
+						@endif
+						<!-- 変更前
 						<script>
 						let tile = document.querySelector('.c-tile');
 						for (var i=1; i<=12; i++) {
 							tile.insertAdjacentHTML('beforeend', '<li class="c-fadeInImage"><a href="{{ asset('/images/g-stage-coordination') }}'+i+'-l.jpg" class="cboxGroup is-fadeInImg is-'+i+'s"><figure><img sizes="(max-width:375px), (min-width:768px)" srcset="{{ asset('/images/g-stage-coordination') }}'+i+'-s.jpg 375w, {{ asset('/images/g-stage-coordination') }}'+i+'-l.jpg 768w" src="{{ asset('/images/g-stage-coordination') }}'+i+'-s.jpg" alt="coordination'+i+'"></figure></a></li>');
 						}
 						</script>
+						-->
 					</ul>
 				</section>
 			</div>
