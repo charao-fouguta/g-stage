@@ -1,5 +1,9 @@
 @extends('admin.layouts.app')
 
+@section('css')
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/themes/base/jquery-ui.min.css">
+@endsection
+
 @section('content')
 <div class="d-flex justify-content-between align-items-center">
     <h1 class="h3 mb-2 text-gray-800">News編集</h1>
@@ -69,4 +73,15 @@
         </form>
     </div>
 </div>
+@endsection
+
+@section('js')
+<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+<script src="https://rawgit.com/jquery/jquery-ui/master/ui/i18n/datepicker-ja.js"></script>
+
+<script>
+$('#posted_date').datepicker({
+    dateFormat: 'yy-mm-dd'
+});
+</script>
 @endsection
