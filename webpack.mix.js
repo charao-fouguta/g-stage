@@ -1,5 +1,7 @@
 const mix = require('laravel-mix');
 
+require('laravel-mix-polyfill');
+
 /*
  |--------------------------------------------------------------------------
  | Mix Asset Management
@@ -15,7 +17,12 @@ mix.js('resources/js/app.js', 'public/js')
     .js('resources/js/admin/app.js', 'public/js/admin')
     .js('resources/js/admin/sb-admin-2.js', 'public/js/admin')
     .sass('resources/scss/admin/app.scss', 'public/css/admin')
-    .vue();
+    .vue()   
+    .polyfill({
+        enabled: true,
+        useBuiltIns: "usage",
+        targets: "firefox 50, IE 11"
+     });
 
     //.js('resources/js/app.js', 'public/js')
     //.postCss('resources/css/app.css', 'public/css', [
