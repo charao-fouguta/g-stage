@@ -43,7 +43,7 @@
                 <div class="ml-4" style="max-width: 600px;">
                     @if($gallipoli)
                         @foreach($coordinations as $coordination)
-                                <a href="{{ route('admin.coordination.edit', ['coordination' => $coordination]) }}" class="mb-4 mr-4"><img src="{{ $coordination->coordination_img }}" style="width: 150px; height: 150px;"></a>
+                            <a href="{{ route('admin.coordination.edit', ['coordination' => $coordination]) }}"><img src="{{ $coordination->coordination_img }}" class="mb-4 mr-4" style="width: 150px; height: 150px;"></a>
                         @endforeach
                     @endif
                 </div>
