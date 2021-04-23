@@ -44,7 +44,7 @@
                     </div>
                     <div class="form-group row mt-4">
                         <div class="col-sm-1">
-                            <button type="submit" class="btn btn-success">保存</button>
+                            <button type="submit" class="btn btn-success">更新</button>
                         </div>
                     </div>
                 </form>
