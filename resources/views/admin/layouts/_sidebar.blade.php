@@ -27,7 +27,6 @@
 
         <a href="{{ route('admin.gstage.create') }}" class="collapse-item">G-stage</a>
         <a href="{{ route('admin.gallipoli.create') }}" class="collapse-item">GALLIPOLI</a>
-        <a href="{{ route('admin.coordination.index') }}" class="collapse-item">コーディネーション</a>
       </div>
     </div>
   </li>

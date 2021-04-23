@@ -11,71 +11,6 @@ use Storage;
 
 class BrandCoordinationController extends Controller
 {
-    /**
-     * Display a listing of the resource.
-     *
-     * @return \Illuminate\Http\Response
-     */
-    public function index()
-    {
-        $coordinations = BrandCoordination::orderby('id', 'desc')->get();
-        return view('admin.coordination.index', compact('coordinations'));
-    }
-
-    /**
-     * Show the form for creating a new resource.
-     *
-     * @return \Illuminate\Http\Response
-     */
-    public function create()
-    {
-        return view('admin.coordination.create');
-    }
-
-    /**
-     * Store a newly created resource in storage.
-     *
-     * @param  \Illuminate\Http\Request  $request
-     * @return \Illuminate\Http\Response
-     */
-    public function store(Request $request)
-    {
-        $validatedData = $request->validate([
-            'brand_id' => 'required|integer',
-            'image' => 'required|image|file|mimes:jpg,png',
-        ]);
-
-        if(Brand::doesntExist()) {
-            return redirect()->route('admin.coordination.index')->with('error', "ブランドの登録がないため追加できませんでした");
-        }
-
-        if($request->hasFile('image')) {
-            $filename = $request->image->getClientOriginalName();
-            $validatedData['image'] = Storage::putFileAs('coordination', $request->image, $filename);
-        }
-
-        BrandCoordination::create($validatedData);
-
-        return redirect()->route('admin.coordination.index')->with('success', "コーディネーションを追加しました");
-    }
-
-    /**
-     * Display the specified resource.
-     *
-     * @param  int  $id
-     * @return \Illuminate\Http\Response
-     */
-    public function show($id)
-    {
-        //
-    }
-
-    /**
-     * Show the form for editing the specified resource.
-     *
-     * @param  int  $id
-     * @return \Illuminate\Http\Response
-     */
     public function edit(BrandCoordination $coordination)
     {
         // リファラーの参照
@@ -129,9 +64,14 @@ class BrandCoordinationController extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function destroy(BrandCoordination $coordination)
+    public function destroy(Request $request, BrandCoordination $coordination)
     {
         $coordination->delete();
-        return redirect()->route('admin.coordination.index')->with('success', "コーディネーション: ID{$coordination->id}を削除しました");
+        // リファラーの参照
+        if($request->referrer == 'gstage') {
+            return redirect()->route('admin.gstage.create')->with('success', "G-stageを更新しました");
+        } else if($request->referrer == 'gallipoli') {
+            return redirect()->route('admin.gallipoli.create')->with('success', "GALLIPOLIを更新しました");
+        }
     }
 }

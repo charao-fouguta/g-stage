@@ -6,6 +6,7 @@
         <div class="d-flex justify-content-between align-items-center">
             <h1 class="h3 mb-2 text-gray-800">コーディネーション編集</h1>
             <form action="{{ route('admin.coordination.destroy', ['coordination' => $coordination]) }}" method="post" onsubmit="return confirm('このコーディネーションを削除します。よろしいですか？');">
+                <input name="referrer" type="hidden" value="{{ $referrer }}">
                 @csrf
                 @method('DELETE')
                 <button class="btn btn-danger mb-2">削除する</button>

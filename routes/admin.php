@@ -20,10 +20,18 @@ Route::prefix('admin')->name('admin.')->group(function() {
         ->name('logout');
 
         Route::get('/', [TopController::class, 'index'])->name('top');
+
+        // News
         Route::resource('news', NewsController::class);
+
+        // Brand
         Route::get('g-stage/create', [BrandController::class, 'gstage_create'])->name('gstage.create');
         Route::get('gallipoli/create', [BrandController::class, 'gallipoli_create'])->name('gallipoli.create');
         Route::post('brand', [BrandController::class, 'store'])->name('brand.store');
-        Route::resource('coordination', BrandCoordinationController::class);
+
+        // BrandCoordination
+        Route::get('coordination/{coordination}/edit', [BrandCoordinationController::class, 'edit'])->name('coordination.edit');
+        Route::patch('coordination/{coordination}', [BrandCoordinationController::class, 'update'])->name('coordination.update');
+        Route::delete('coordination/{coordination}', [BrandCoordinationController::class, 'destroy'])->name('coordination.destroy');
     });
 });

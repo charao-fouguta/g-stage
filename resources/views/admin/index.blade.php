@@ -47,7 +47,6 @@
                 <span style="color: #0a0837">ブランド管理</span>
                 <a class="g-stage-link" href="{{ route('admin.gstage.create') }}"><p class="g-stage-block mt-3 d-flex align-items-center justify-content-around">G-stage</p></a>
                 <a class="GALLIPOLI-link" href="{{ route('admin.gallipoli.create') }}"><p class="GALLIPOLI-block mt-3 d-flex align-items-center justify-content-around">GALLIPOLI</p></a>
-                <a class="g-stage-link" href="{{ route('admin.coordination.index') }}"><p class="g-stage-block mt-3 d-flex align-items-center justify-content-around">コーディネーション</p></a>
             </div>
             <div class="col-2 text-center">
                 <span style="color: #0a0837">News管理</span>
