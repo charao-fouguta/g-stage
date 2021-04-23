@@ -13,6 +13,9 @@
         <!-- Custom styles for this template-->
         <link href="{{ mix('css/admin/app.css') }}" rel="stylesheet">
 
+        <!-- favicon -->
+        <link rel="icon" type="image/x-icon" href="{{ asset('images/logo-black.png?20210330') }}">
+
         <!-- Scripts -->
         <script src="{{ asset('js/app.js') }}" defer></script>
         @yield('css')
