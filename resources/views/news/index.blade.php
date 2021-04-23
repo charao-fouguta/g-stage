@@ -24,7 +24,7 @@
 						<div>
 							<div class="c-articleList__imgWrap">
 								<figure><img src="{{ $new->main_img }}" alt="リニューアルオープン"></figure>
-								<time datetime="2021-04-05">{{ $new->posted_date }}</time>
+								<time>{{ $new->posted_date }}</time>
 							</div>
 							<div class="c-articleList__meta u-paddingSide18">
 								<h3>{{ $new->title }}</h3>

@@ -11,6 +11,7 @@ class NewsController extends Controller
     {
         $news = News::PostedDate()
                         ->Visible()
+                        ->orderby('posted_date', 'desc')
                         ->paginate(4)
                         ->appends(request()->all());
 
