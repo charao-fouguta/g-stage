@@ -32,6 +32,8 @@
                 </table>
             </div>
         </div>
+        <!-- ページネーション -->
+        <div class="mt-2">{{ $news->links() }}</div>
     </div>
 </div>
 @endsection
