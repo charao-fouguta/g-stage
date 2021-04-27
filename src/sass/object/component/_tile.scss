@@ -6,17 +6,26 @@ Tile
 .c-tile {
 	display: flex;
 	flex-wrap: wrap;
-	justify-content: space-between;
+	justify-content: flex-start;
 	margin: 10px auto;
 	width: 100%;
 	font-size: 2rem;
 	li {
 		display: block;
-		margin-bottom: 1.2em;
+        margin: 0 1.2em 1.2em 0;
 		position: relative;
 		width: 30.5%;
+        &:nth-child(2n) {
+            margin: 0 0 1.2em 0;
+        }
 		@include mq(tb) {
-			margin-bottom: 2.7em;
+            margin: 0 1.7em 1.7em 0;
+            &:nth-child(2n) {
+                margin: 0 1.7em 1.7em 0;
+            }
+            &:nth-child(3n) {
+                margin: 0 0 1.7em 0;
+            }
 		}
 		a {
 			display: block;
