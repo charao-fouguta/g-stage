@@ -8,6 +8,17 @@
 	<link rel="stylesheet" href="{{ asset('css/style.css?ver=1.0.6') }}">
 	<link rel="stylesheet" href="{{ asset('css/custom.css') }}">
 	<link rel="icon" type="image/x-icon" href="{{ asset('images/logo-black.png?20210330') }}">
+
+	@if(config('app.env') === 'production')
+		<!-- Global site tag (gtag.js) - Google Analytics -->
+		<script async src="https://www.googletagmanager.com/gtag/js?id=G-Y77YF5XSZL"></script>
+		<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag(){dataLayer.push(arguments);}
+		gtag('js', new Date());
+		gtag('config', 'G-Y77YF5XSZL');
+		</script>
+	@endif
 	<script>document.createElement( "picture" );</script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/picturefill/3.0.2/picturefill.min.js" async></script>
 </head>
