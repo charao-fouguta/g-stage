@@ -20,7 +20,7 @@
 			<section class="l-section">
 				<ul class="c-articleList">
 					@foreach($news as $new)
-					<li id="n4">
+					<li id="n{{ $new->id }}">
 						<div>
 							<div class="c-articleList__imgWrap">
 								<figure><img src="{{ $new->main_img }}" alt="リニューアルオープン"></figure>

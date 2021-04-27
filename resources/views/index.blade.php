@@ -93,46 +93,18 @@
 			<section class="l-section">
 				<h2><span class="is-fadeToBottom">News<span class="u-rubyBottom">お知らせ</span></span></h2>
 				<ul class="l-parallel l-overFlow c-media3column">
+					@foreach($news as $new)
 					<li>
-						<a href="{{ route('news') }}/#n4">
-							<figure><img src="{{ asset('/images/renewal-open.jpg') }}" alt="リニューアルオープン"></figure>
+						<a href="{{ route('news') }}/#n{{ $new->id }}">
+							<figure><img src="{{ $new->main_img }}" alt="{{ $new->title }}"></figure>
 							<div class="u-paddingWithoutTop18">
-								<time datetime="2021-04-05">2021/04/05</time>
-								<h3>G-STAGE・JAPAN株式会社のコーポレートサイトをリニューアルいたしました</h3>
+								<time datetime="{{ $new->posted_date }}">{{ $new->posted_date }}</time>
+								<h3>{{ $new->title }}</h3>
 								<p>掲載商品の詳細はこちら</p>
 							</div>
 						</a>
 					</li>
-					<li>
-						<a href="{{ route('news') }}/#n3">
-							<figure><img src="{{ asset('/images/20210325.jpg') }}" alt="2021年3月25日"></figure>
-							<div class="u-paddingWithoutTop18">
-								<time datetime="2021-03-25">2021/03/25</time>
-								<h3>メディア情報◆雑誌掲載「Safari5月号」に掲載されました</h3>
-								<p>掲載商品の詳細はこちら</p>
-							</div>
-						</a>
-					</li>
-					<li>
-						<a href="{{ route('news') }}/#n2">
-							<figure><img src="{{ asset('/images/20210305.jpg') }}" alt="2021年3月5日"></figure>
-							<div class="u-paddingWithoutTop18">
-								<time datetime="2021-03-05">2021/03/05</time>
-								<h3>メディア情報◆雑誌掲載「GOLFTODAY4月号」に掲載されました</h3>
-								<p>掲載商品の詳細はこちら</p>
-							</div>
-						</a>
-					</li>
-					<li>
-						<a href="{{ route('news') }}/#n1">
-							<figure><img src="{{ asset('/images/20210125.jpg') }}" alt="2021年1月25日"></figure>
-							<div class="u-paddingWithoutTop18">
-								<time datetime="2021-01-25">2021/01/25</time>
-								<h3>メディア情報◆雑誌掲載「Safari3月号」に掲載されました</h3>
-								<p>掲載商品の詳細はこちら</p>
-							</div>
-						</a>
-					</li>
+					@endforeach
 				</ul>
 			</section>
 		</div>
