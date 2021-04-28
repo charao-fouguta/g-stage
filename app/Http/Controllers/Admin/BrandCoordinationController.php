@@ -54,8 +54,6 @@ class BrandCoordinationController extends Controller
         } else if($request->referrer == 'gallipoli') {
             return redirect()->route('admin.gallipoli.create')->with('success', "GALLIPOLIを更新しました");
         }
-        
-        return redirect()->route('admin.coordination.index')->with('success', "コーディネーションを更新しました");
     }
 
     /**

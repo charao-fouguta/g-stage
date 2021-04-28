@@ -24,17 +24,7 @@
                     @csrf
                     @method('PATCH')
                     <input name="referrer" type="hidden" value="{{ $referrer }}">
-                    <div class="form-group row mt-4">
-                        <label class="col-sm-2 col-form-label">ブランドタイプ<sup class="text-danger">※</sup></label>
-                        <div class="col-sm-3">
-                            @foreach(config('admin.brand_type') as $value => $name)
-                                <div class="form-check form-check-inline">
-                                    <input type="radio" name="brand_id" class="form-check-input" value="{{ $value }}" @if(old('brand_id', $coordination->brand_id) == $value) checked @endif>
-                                    <label class="form-check-label">{{ $name }}</label>
-                                </div>
-                            @endforeach
-                        </div>
-                    </div>
+                    <input name="brand_id" type="hidden" value="{{ $coordination->brand_id }}">
                     <div class="form-group row mt-4">
                         <label for='image' class="col-sm-2 col-form-label">画像<sup class="text-danger">※</sup></label>
                         <div class="col-sm-3">
