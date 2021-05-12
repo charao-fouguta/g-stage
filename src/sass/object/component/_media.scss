@@ -116,7 +116,7 @@
 			font-size: 1.6rem;
 			color: map-get($color, baseLight);
 		}
-	}	
+	}
 }
 .c-mediaColumnRow {
 	margin-bottom: 140px;
@@ -148,5 +148,15 @@
 				//height: 346px;
 			}
 		}
-	}	
+	}
+}
+
+.c-mediaColumnRow.u-sns {
+    @include mq(tb) {
+        justify-content: space-between;
+        > li {
+            margin-right: 0;
+            width: 30%;
+        }
+	}
 }

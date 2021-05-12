@@ -147,7 +147,7 @@
 				<div class="c-passage">
 					<p class="c-lessSpace">G-stageでは、SNSで入荷情報など最旬の情報を発信しております。<br>ぜひチェックしてみてください！</p>
 				</div>
-				<ul class="l-parallel c-mediaColumnRow">
+				<ul class="l-parallel c-mediaColumnRow u-sns">
 					<li>
 						<a href="https://www.youtube.com/channel/UCEpg8F6msuNx1HH4WLZDADg" target="_blank">
 							<figure class="c-fadeInImage2"><img size="(max-width:375px), (min-width:768px)" srcset="{{ asset('/images/youtube-s.jpg') }} 375w, {{ asset('/images/youtube-l.jpg') }} 768w" src="{{ asset('/images/youtube-s.jpg') }}" alt="YouTube" class="is-fadeInImg2 is-1s"></figure>

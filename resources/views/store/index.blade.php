@@ -23,7 +23,7 @@
 							<div class="u-flexHalf__PC">
 								<dl>
 									<div>
-										<dt>Adress.</dt>
+										<dt>Address.</dt>
 										<dd>大阪府大阪市北区梅田1丁目13-13</dd>
 									</div>
 									<div>
@@ -44,7 +44,7 @@
 							<div class="u-flexHalf__PC">
 								<dl>
 									<div>
-										<dt>Adress.</dt>
+										<dt>Address.</dt>
 										<dd>神奈川県横浜市西区高島2-18-1</dd>
 									</div>
 									<div>
@@ -65,7 +65,7 @@
 							<div class="u-flexHalf__PC">
 								<dl>
 									<div>
-										<dt>Adress.</dt>
+										<dt>Address.</dt>
 										<dd>東京都渋谷区宇田川町21-1</dd>
 									</div>
 									<div>
@@ -86,7 +86,7 @@
 							<div class="u-flexHalf__PC">
 								<dl>
 									<div>
-										<dt>Adress.</dt>
+										<dt>Address.</dt>
 										<dd>京都府京都市下京区烏丸通塩小路下る東塩小路町901</dd>
 									</div>
 									<div>
@@ -94,7 +94,7 @@
 										<dd>075-352-1111</dd>
 									</div>
 								</dl>
-								
+
 								<div class="p-shortList__button"><a href="#kyoto" class="cboxMap1 c-button__short">Map</a></div>
 								<div class="lib-cboxMap">
 									<div id="kyoto" class="lib-mapWrap">

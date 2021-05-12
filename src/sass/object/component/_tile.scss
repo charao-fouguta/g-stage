@@ -12,21 +12,12 @@ Tile
 	font-size: 2rem;
 	li {
 		display: block;
-        margin: 0 1.2em 1.2em 0;
+        margin: 0 3% 3% 0;
 		position: relative;
-		width: 30.5%;
-        &:nth-child(2n) {
-            margin: 0 0 1.2em 0;
+		width: 31%;
+        &:nth-child(3n) {
+            margin: 0 0 3% 0;
         }
-		@include mq(tb) {
-            margin: 0 1.7em 1.7em 0;
-            &:nth-child(2n) {
-                margin: 0 1.7em 1.7em 0;
-            }
-            &:nth-child(3n) {
-                margin: 0 0 1.7em 0;
-            }
-		}
 		a {
 			display: block;
 			position: relative;
@@ -57,9 +48,23 @@ Tile
 }
 .c-tile.c-halfSP {
 	li {
+        margin: 0 2% 2% 0;
 		width: 48%;
+        &:nth-child(2n) {
+            margin: 0 0 2% 0;
+        }
+        &:nth-child(3n) {
+            margin: 0 2% 2% 0;
+        }
 		@include mq(tb) {
-			width: 30.5%;
+			width: 31%;
+            margin: 0 3% 3% 0;
+            &:nth-child(2n) {
+                margin: 0 3% 3% 0;
+            }
+            &:nth-child(3n) {
+                margin: 0 0 3% 0;
+            }
 		}
 	}
 }
