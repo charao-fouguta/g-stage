@@ -6,6 +6,7 @@ use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Mail;
 use App\Mail\UserContactMail;
 use App\Mail\AdminContactMail;
+use App\Models\MailRecieve;
 
 class ContactController extends Controller
 {
@@ -29,9 +30,10 @@ class ContactController extends Controller
 
     public function complete()
     {
+        $email = MailRecieve::onlyNotifiable()->get();
         $data = session()->get('contact');
         Mail::to($data['email'])->send(new UserContactmail($data));
-        Mail::to(config('mail.from.address'))->send(new AdminContactMail($data));
+        Mail::to($email)->send(new AdminContactMail($data));
         return view('contact.complete');
     }
 }

@@ -6,6 +6,7 @@ use Illuminate\Bus\Queueable;
 use Illuminate\Contracts\Queue\ShouldQueue;
 use Illuminate\Mail\Mailable;
 use Illuminate\Queue\SerializesModels;
+use App\Models\MailRecieve;
 use Carbon\Carbon;
 
 class UserContactMail extends Mailable
@@ -31,8 +32,9 @@ class UserContactMail extends Mailable
      */
     public function build()
     {
+        $email = MailRecieve::onlyNotifiable()->get();
         return $this
-            ->from(config('mail.from.address'), config('mail.from.name'))
+            ->from($email, 'G-STAGE・JAPAN株式会社')
             ->subject('【G-STAGE・JAPAN株式会社】お問い合わせありがとうございます')
             ->text('mail.contact')
             ->with([
