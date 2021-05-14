@@ -1,5 +1,6 @@
 @section('title', 'G-stage｜G-STAGE JAPAN株式会社')
 @include('layouts.header')
+<div class="l-main u-paddingSideTB50">
 	<main>
 		<div class="l-column__nallow u-paddingSide18">
 			<section class="l-section l-pageTop">
