@@ -32,7 +32,7 @@
 									<a href="{{ $new->link }}" target="_blank" class="u-headingLink">掲載商品の詳細はこちら</a>
 								@endif
 								@if($new->content)
-								<p class="c-articleList__message">{{ $new->content }}</p>
+								<p class="c-articleList__message">{!! nl2br($new->content) !!}</p>
 								<div class="c-articleList__button">
 									<div class="c-articleList__viewDetail">View Detail<span class="c-viewDetail__arrow">↓</span></div>
 									<div class="c-articleList__closeDetail">Close Detail<span class="c-viewDetail__arrow">↑</span></div>
