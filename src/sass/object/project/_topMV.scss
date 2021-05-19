@@ -83,8 +83,7 @@
 			width: 100%;
 			height: 100%;
 			object-fit: cover;
-
-			object-position: top left;
+			object-position: left top;
 
 			@include mq(pb) {
 				height: auto; //IE対策で追加
@@ -92,8 +91,8 @@
 				font-family: 'object-fit: cover;'; //IE対策
 			}
 			@include mq(tb) {
-				object-position: top center;
-				font-family: 'object-position: top center;'; //IE対策
+				object-position: left top;
+				font-family: 'object-position: center top;'; //IE対策
 			}
 		}
 		figcaption {
@@ -196,7 +195,7 @@
 	top: 0;
 	right: 0;
 	width: 8%;
-	z-index: 2;
+	z-index: 1;
 	padding-top: 40%;
 	height: 100%;
 	writing-mode: vertical-lr;
@@ -238,7 +237,7 @@
 				opacity: .0;
 			}
 		}
-	
+
 	}
 	@include mq(tb) {
 		display: none;
